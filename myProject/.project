@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>myProject</name>
+	<name>MyProject</name>
 	<comment></comment>
 	<projects>
+		<project>MyProjectEJB</project>
+		<project>MyProjectEJBClient</project>
+		<project>MyProjectWeb</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

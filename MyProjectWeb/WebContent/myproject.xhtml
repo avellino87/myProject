@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+
+<f:view contentType="text/html">
+	<h:head>
+		<f:facet name="first">
+			<meta http-equiv="X-UA-Compatible" content="IE=9" />
+			<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+			<link type="text/css" rel="stylesheet"
+				href="css/syntaxhighlighter/syntaxhighlighter.css" />
+			<title>My Project</title>
+		</f:facet>
+
+		<style type="text/css">
+.ui-layout-north {
+	z-index: 2000 !important;
+	overflow: visible !important;
+}
+
+.ui-layout-north .ui-layout-unit-content {
+	overflow: visible !important;
+}
+</style>
+	</h:head>
+	<h:body>
+		<h:form>
+			<h:panelGrid columns="4" cellpadding="5">
+				<h:outputLabel for="name" value="Name:" style="font-weight:bold" />
+				<p:inputText id="name" value="#{mainMb.text}" />
+				<p:commandButton value="Submit" update="display2"
+					icon="ui-icon-check" />
+				<h:outputText id="display2" value="#{mainMb.text}" />
+				<h:outputText id="display" value="#{mainMb.messaggio}" />
+			</h:panelGrid>
+		</h:form>
+	</h:body>
+</f:view>
+</html>

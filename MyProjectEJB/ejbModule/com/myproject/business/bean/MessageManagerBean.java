@@ -1,5 +1,16 @@
 package com.myproject.business.bean;
 
-public class MessageManagerBean {
+import javax.ejb.Stateless;
+
+import com.myproject.business.MessageManager;
+
+@Stateless
+public class MessageManagerBean implements MessageManager{
+
+	@Override
+	public String writeMessage() {
+		 return "Ciao Mondo!";
+		
+	}
 
 }

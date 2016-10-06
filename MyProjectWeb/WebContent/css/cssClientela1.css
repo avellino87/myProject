@@ -1,0 +1,5655 @@
+Fbody {
+        margin: 0px;
+        padding: 0;
+        color: #616161;
+}
+
+h1, h2, h3 {
+        margin-top: 0;
+}
+.trueCutOff{
+	background: red !important;
+}
+.trueRendered{
+	display: block !important;
+}
+
+.ui-messages-error, .ui-message-error {
+color: inherit !important;
+background-color: inherit !important;
+border: none !important;
+}
+
+.ui-messages-error-icon {
+display: none !important;
+}
+
+.falseRendered{
+	display: none !important;
+}
+
+.falseCutOff{
+	
+}
+
+.ui-message-error-icon{
+	display:none;
+}
+
+.floatRight{
+	float: right;
+}
+
+#load .ui-dialog-titlebar{
+	display:none;
+}
+
+.ui-widget-overlay{
+	background: white !important;
+	opacity:0 !important;
+	z-index:2001 !important;
+}
+
+.floatLeft{
+	float: left;
+}
+
+.TextBanca{
+	font-size: 13px; 
+	font-weight: bold;
+	color:#005B82;
+}
+
+.TextCH{
+	font-size: 12px; 
+	font-weight: bold;
+	color:#005B82;
+}
+
+.TextFirstCall{
+	font-size: 13px!important; 
+	color:#005B82;
+}
+
+.TextItdCall{
+	font-size: 13px!important;
+	color:#005B82;
+}
+
+.OK {
+	font-size: 13px;
+	color:green;
+	font-weight: bold;
+
+                       
+}
+
+.red{
+background-image:url('5.gif');
+} 
+
+.rowspace {
+	height:30px;
+}
+
+/*larghezza colonne per Marginazione*/     
+.colLabelSearch{
+        width:10%;
+     }
+     
+.colLabelSearch2{
+        width:15%;
+     }     
+     /*larghezza colonne per Marginazione*/     
+.colSearch{
+        width:30%;
+        margin-left:0%;
+     }
+     
+.colSearchRight{
+        width:48%;
+        margin-right:0%;
+     }
+
+.colSear1{
+text-align:left;
+width:25%;
+}
+.colSear2{
+width:30%;
+}
+.colSear3{
+text-align:left;
+width:25%;
+}
+/*larghezza colonne per Marginazione*/
+.col{
+        width:19%;
+     }
+/*larghezza colonne per Marginazione Clientela*/
+.colcli{
+        width:12%;
+     }     
+.colId{
+        width:12%;
+     }
+
+.colVer{
+   width:12%;
+}         
+
+/*larghezza colonne per Marginazione*/     
+.colLabel{
+        width:2%;
+     }
+     
+     
+     
+ /*larghezza colonne per Marginazione*/
+.colMess{
+        width:30%;
+     }
+
+/*larghezza colonne per Marginazione*/     
+.colLabelMess{
+        width:7.5%;
+     }
+/*larghezza colonne per Marginazione*/     
+.colLabelMessFileReporting{
+        width:15%;
+     }     
+     
+     /*larghezza colonne per Marginazione*/     
+.colLabelMess2{
+        width:5%;
+     }
+     
+/*larghezza colonne per Intestazione principale*/      
+.colLogo{
+        width:75%;
+     }
+     
+     /*larghezza colonne per Intestazione principale*/     
+.colWelcome{
+		text-align:right;
+        width:20%;
+     }
+     
+.colStatus{
+		text-align:right;
+        width:5%;
+     }      
+          /*larghezza colonne per Intestazione principale*/ 
+.colLogout{
+        width:5%; 
+		text-align:center;
+     }  
+     
+.colLableradioBox{
+	width:10%
+	
+}
+ 
+.colradioBox{
+	width:20%
+	
+}     
+
+.colLableradioItdBox{
+	width:22%
+	
+}
+     
+.KO {
+	font-size: 13px;
+	color:red;
+	font-weight: bold;
+}
+
+h1 {
+        font-size: 1.6em;
+        font-weight: normal;
+}
+
+h2 {
+        font-size: 1.6em;
+}
+
+h3 {
+        font-size: 1em;
+        margin-top:20px;
+}
+
+ul {
+}
+
+
+
+a {
+        text-decoration: none;
+}
+
+a:hover {
+        text-decoration: underline;
+}
+
+a img {
+        border: none;
+}
+
+img.left {
+        float: left;
+        margin: 0 20px 0 0;
+}
+
+img.right {
+        float: right;
+        margin: 0 0 0 20px;
+}
+
+/* Header */
+#header {
+    padding: 4px 0px;
+    height: 75px;
+    position: relative;
+}
+
+#logo {
+    text-align: left;
+}
+
+/* Menu */
+#menu {
+    position: absolute;
+    top:25px;
+    right:15px;
+        padding: 0;
+        height: 59px;
+    overflow: hidden;
+}
+
+#menu ul {
+        margin: 0;
+        list-style: none;
+}
+
+#menu li {
+        display: inline;
+}
+
+#menu li a {
+        display: block;
+        float: left;
+        height: 42px;
+        margin: 0;
+        padding: 18px 40px 0 40px;
+        text-decoration: none;
+        font-size: 20px;
+}
+
+#menu li a:hover {
+        text-decoration: underline;
+}
+
+#globalthemeswitcher {
+    position:absolute;
+    top:5px;
+    right:50px;
+}
+
+/* Page */
+#page {
+        padding: 10px 0px;
+        background: #FFFFFF;
+}
+
+/* Content */
+#content {
+        width: 70%;
+    float:left;
+}
+
+.post {
+        padding-bottom: 15px;
+}
+
+.post h1 {
+        font-weight: normal;
+}
+
+.title {
+        height: 30px;
+        margin-left: 10px;
+        padding: 8px 0 0 20px;
+}
+
+.title a {
+        border-bottom: none;
+        color: #FFFFFF;
+}
+
+.title a:hover {
+        border-bottom: 1px dotted #000000;
+}
+
+.submenu-title {
+    padding: 4px 10px;
+}
+
+.submenu-content {
+    text-align:center;
+}
+
+.byline {
+        margin: -60px 20px 20px 20px;
+}
+
+.byline a {
+        color: #DC8700;
+}
+
+.tag {
+        padding: 0 15px;
+}
+
+.entry {
+        padding: 0 20px;
+}
+
+.entry p {
+        line-height: 200%;
+}
+
+.links {
+        padding: 4px 0px;
+        text-align: right;
+        font-weight: bold;
+}
+
+.links a {
+        border: none;
+}
+
+.links a:hover {
+}
+
+#sidebar {
+        float: left;
+        width: 25%;
+        padding: 0 10px;
+        margin-left: -1px;
+    overflow: hidden;
+}
+
+#sidebar a.ui-state-hover,
+#sidebar a.ui-state-highlight {
+    border:0 none;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#sidebar table {
+    width: 100%;
+}
+
+#sidebar table td {
+    vertical-align: top;
+}
+
+#sidebar ul {
+    padding: 0;
+    margin: 0;
+}
+
+#sidebar ul li {
+    list-style-type: none;
+    padding: 1px;
+}
+
+/* Footer */
+#footer {
+        height: 70px;
+        margin: 0 auto;
+        padding: 0 20px;
+    font-size: 14px;
+}
+
+#footer p {
+        margin: 0;
+        padding: 25px 0 0 0;
+        text-align: center;
+}
+
+#footer a {
+}
+
+#footer .link {
+        float: right;
+}
+
+#footer .copyright {
+        float: left;
+}
+
+.homeText {
+        line-height: 175%;
+}
+
+.homeMenu {
+        width:200px;
+        float:left;
+        margin-right:10px
+}
+
+.themeMenu {
+    overflow: auto;
+    height:300px;
+    width:200px;
+}
+
+.dp-xml {
+    width:1000px;
+}
+
+.ui-themeswitcher a.ui-selectonemenu-label-container {
+    text-decoration: none !important;
+}
+
+
+/*dimensione caratteri accordian e ect*/
+.ui-widget {
+    font-size: 10px ;
+
+}
+
+
+
+.textData{
+	color: #005B82; 
+	font-size: 14px;
+	 font-weight: bold;
+	 text-align:right;
+}
+
+
+
+/*GUI SETTAGGI INIZIALI
+/*setta il colore dello sfondo - il colore del testo- toglie i bordi ai widget*/
+.ui-widget-content {
+	color: #333!important; 
+	border:none!important;
+	background: #F5F5F5;
+	padding-top:0em;
+	padding-left:0em;
+	font-family: Tahoma!important;
+	box-shadow: none !important;
+	
+	
+}
+
+
+/*si può togliere
+.ui-widget-header {
+color: #005B82 !important;
+font-weight: bold;
+text-shadow: 0px 1px 0px rgba(255,255,255,0.7);
+}
+ */
+
+
+/* TABELLA GUI fa collossare le righe-tolto il border-color bianco */
+/* .ui-datatable table {  */
+/*   border-collapse: separate;  */
+/*   border-spacing:0 3px; */
+/* } */
+
+
+/* TABELLA GUI 
+setta header delle tabelle- colore -text align -size */ 
+.ui-datatable thead th, .ui-datatable tfoot td {
+color : #FFFFFF!important;
+text-align: left;
+font-weight: bold;
+font-size: 11.5px;
+background: #2a7db8!important;
+border:1px Solid!important;
+border-color:#145583!important;
+font-family: Tahoma!important;
+
+}
+
+
+/*settagio colore text per calendario marginazione*/
+
+.ui-inputfield, .ui-widget-content .ui-inputfield, .ui-widget-header .ui-inputfield{
+		color : #333!important;
+	font-family: Tahoma!important;
+	
+}
+
+
+/*settaggio colore widget */
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+border: 1px solid #FDFDFD ;
+background: #CFE0EB;
+font-weight: bold;
+text-shadow: none!important;
+box-shadow:none!important;
+}
+
+/*setta colore Tab grigio*/
+.test a{
+	background: lightgray !important;
+}
+
+
+/*Nasconde l'header delle colonne*/
+.hide-column-names table thead tr {
+    display: none;
+}
+
+
+
+.rowcolor {
+	 background-color: #ffffff !important;
+     color: #333!important;
+     font-size: 11px;
+     font-family: Tahoma!important;
+     border:1px solid #d1d4d7!important;
+}
+
+.rowcolorTableSuth {
+	 background-color: #F5F6FF !important;
+     color: #005B82   !important;
+     font-size: 10.5px;
+  
+}
+
+/*TABELLA GUI */ 
+.ui-datatable .ui-datatable-data .ui-state-highlight td {
+    background-color: #2a7db8 !important;
+    border: none !important;
+    color:white!important;
+    text-shadow: none!important;
+    border-right:1px solid white!important;
+}
+/*TABELLA GUI */ 
+.ui-datatable .ui-datatable-data .ui-state-highlight .fontTabelle{
+   color:white!important;
+
+}
+/*GUI 
+INIZIO
+SELECT HOVER DATATABLE */
+
+.ui-datatable-odd {
+    background: #ECF5FB!important;
+
+}
+
+
+.ui-datatable-odd.ui-state-hover{
+	background:#f99d1a!important;
+	background-color:#f99d1a!important;
+	color:#fff!important;
+}
+
+.ui-datatable-odd.ui-state-hover .fontTabelle{
+
+	color:#fff!important;
+}
+
+.ui-datatable-even.ui-state-hover{
+	background:#f99d1a!important;
+	background-color:#f99d1a!important;
+		color:#fff!important;
+	
+}
+
+.ui-datatable-even.ui-state-hover .fontTabelle{
+		color:#fff!important;
+	
+}
+
+
+
+/*FINE SELECT HOVER DATATABLE */
+
+/*GUI TABELLA*/
+.ui-datatable .ui-datatable-data .ui-state-error td {
+    border-bottom: 2px solid #005B82;
+    border-top: 2px solid #005B82;
+    border: none !important;
+}
+    
+
+
+/* GUI TABELLA Lente su table default */
+.MySearch{
+	display: block !important;
+background-color: #CFE0EB !important;
+background-image: url("../images/sprite-1new.png") !important;
+width: 18px !important;
+height: 18px !important;
+background-position: -175px -159px !important;
+border-radius:5px!important;
+}
+
+
+/* GUI TABELLAL ente su table focus */
+
+.MySearch:focus{
+		display: block !important;
+background-color: #1D608D !important;
+background-image: url("../images/sprite-2.png") !important;
+width: 18px !important;
+height: 18px !important;
+background-position: -175px -159px !important;
+border-radius:5px!important;
+}
+
+/* GUI TABELLA Lente su table hover */
+.MySearch:hover{
+		display: block !important;
+background-color: #f99d1a !important;
+background-image: url("../images/sprite-2.png") !important;
+width: 18px !important;
+height: 18px !important;
+background-position: -175px -159px !important;
+border-radius:5px!important;
+}
+    
+
+
+
+
+
+.ui-widget-content a {
+/* color: #005B82; */
+font-family: Tahoma;
+
+}
+
+
+
+/*GUI */
+/*Settaggio Panel Grid layout center-sud header a stesso colore sfondo  */
+.Myui-widget-header .ui-widget-header {
+border: 0px solid  transparent!important;
+background: #F5F5F5 !important;
+overflow: hidden;
+color: #145583!important;
+padding-top:0em!important;
+}
+
+.Myui-widget-header-centerSuth .ui-widget-header {
+border: 0px solid  transparent;
+background: white!important;
+overflow: hidden;
+color: #145583;
+
+}
+
+
+/*GUI
+Proprieta header left layout*/
+.Myui-widget-header-left .ui-widget-header {
+text-align:right;
+font-size: 11px;
+font-weight: bold;
+border: 0px solid  transparent;
+background: #F5F5F5!important ;
+overflow: hidden;
+color: #145583!important;
+
+
+}
+
+/*GUI
+Settaggio Panel Grid layout center-sud header a stesso colore sfondo  */
+.Myui-widget-header .ui-widget-header {
+border: 0px solid  transparent;
+background: #F5F5F5 ;
+overflow: hidden;
+color: #145583;
+padding-top:0px!important;
+padding-left:0px!important;
+padding-right:0px!important;
+}
+
+
+/*GUI MESSAGGIO DATATABLE*/
+.ui-widget-content.ui-datatable-empty-message{
+	border-color:#f5f5f5!important;
+	text-align: center;
+	color:red!important;
+	font-family: Tahoma!important;
+	background-color:#fff!important;
+	border:1px solid #d1d4d7!important;
+}
+
+
+
+/*GUI Inizio 
+icona sort su header tabelle*/
+.ui-state-default.ui-sortable-column span.ui-sortable-column-icon{
+		background-color:#1D608D!important;
+		background-position: 1px -47px!important;
+			background-image: url('../images/sprite-2.png')!important;
+		
+	
+}
+
+.ui-state-default.ui-sortable-column span.ui-sortable-column-icon.ui-icon.ui-icon-carat-2-n-s.ui-icon-triangle-1-n{
+		background-color:#f99d1a!important;
+		background-position:-64px -47px !important;
+					background-image: url('../images/sprite-2.png')!important;
+		
+	
+}
+
+.ui-state-default.ui-sortable-column.ui-state-active span.ui-sortable-column-icon.ui-icon.ui-icon-carat-2-n-s.ui-icon-triangle-1-s{
+		background-color:#f99d1a!important;
+		background-position: 1px -47px!important;
+					background-image: url('../images/sprite-2.png')!important;
+		
+	
+}
+
+.ui-state-default.ui-sortable-column.ui-state-active span.ui-sortable-column-icon.ui-icon.ui-icon-carat-2-n-s.ui-icon-triangle-1-n{
+		background-color:#f99d1a!important;
+		background-position:-64px -47px !important;
+					background-image: url('../images/sprite-2.png')!important;
+		
+	
+}
+
+
+.ui-state-default.ui-sortable-column.ui-filter-column span.ui-sortable-column-icon{
+		background-color:#1D608D!important;
+		background-position: 1px -47px!important;
+			background-image: url('../images/sprite-2.png')!important;
+		
+	
+}
+
+.ui-state-default.ui-sortable-column.ui-filter-column span.ui-sortable-column-icon.ui-icon.ui-icon-carat-2-n-s.ui-icon-triangle-1-n{
+		background-color:#f99d1a!important;
+		background-position:-64px -47px !important;
+					background-image: url('../images/sprite-2.png')!important;
+		
+	
+}
+
+.ui-state-default.ui-sortable-column.ui-filter-column span.ui-sortable-column-icon.ui-icon.ui-icon-carat-2-n-s.ui-icon-triangle-1-s{
+		background-color:#1D608D!important;
+		background-position: 1px -47px!important;
+					background-image: url('../images/sprite-2.png')!important;
+		
+	
+}
+
+.ui-state-default.ui-sortable-column.ui-filter-column.ui-state-active span.ui-sortable-column-icon.ui-icon.ui-icon-carat-2-n-s.ui-icon-triangle-1-s{
+		background-color:#f99d1a!important;
+}
+
+
+/*GUI Fine ***** 
+icona sort su header tabelle*/
+
+/*
+
+
+
+
+
+.ui-accordion .ui-accordion-header {
+cursor: pointer;
+position: relative;
+margin-top: 1px;
+zoom: 1;
+color: #005B82!important;
+}
+
+.imagep{
+position:absolute;
+left:4px;
+top:19px;
+}
+
+
+
+.MyRecMarPanel {
+	background-color: #FFFFFF;
+	font-size:15px;
+}
+
+.MyTextRec {
+font-size:15px;	
+font-weight: bold;
+
+}
+
+.ui-tree .ui-treenode-label.ui-state-highlight {
+    font-weight: normal;
+   background-color: #CFE0EB!important;
+}
+
+
+
+/* Colore selezione Tab Panel */
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a {
+cursor: text;
+background: #005B82!important;
+color:#FFFFFF!important;
+border-bottom-color: #005B82!important;
+}
+
+.MyIcon .ui-icon .ui-icon-help{
+	background-image:url('Ok.gif');
+}
+
+.BorderRiconc .ui-widget-content {
+	color: #005B82!important; 
+	border:1px;
+	background: #F9F8F6;
+}
+
+/*Per Monitoring setta colore riordino tabella */
+.ui-icon-carat-2-n-s {
+background-position: -128px 0;
+background-color:#F9F8F6 !important;
+color: #F9F8F6 !important;
+}
+
+.MenuNo {
+	z-index:1024;
+	
+}
+
+
+/*Settaggio colore del menu item North */
+.ui-menu, .ui-menu .ui-menu-child {
+background: #F9F8F6 !important;
+
+}
+
+
+.MarginSeparator{
+	width:100%;
+	height:5px!important; 
+	background-color: #a8a8a8!important;
+
+	
+}
+
+.ui-panel .ui-panel-content {
+border: 0;
+background: none;
+padding: 0.0em 0em!important;
+}
+
+.ui-datatable-odd {
+    background: #F5F6FF!important;
+
+}
+
+
+.tabTitle {
+	 background-color: #a8a8a8 !important;
+	 font-size:13px;
+}
+
+
+
+.ui-tabs .ui-tabs-panel {
+margin-left: 0px!important;
+margin-right: 0px;	
+border-width: 0;
+padding: 1em 1.4em;
+background: none;
+overflow:none!important
+}
+
+
+
+/*visualizzazione bordi panel layout center*/
+.VisualBorder {
+border: solid 1px #a8a8a8 !important;
+margin-right:10px;
+}
+
+/*scomparsa bordi panel layout center*/
+.NoVisualBorder {
+border: solid transparent  !important;
+}
+
+.ImagePosition {
+	position:relative;
+left:110px;
+}
+
+
+
+
+/*Proprieta header left layout*/
+.Myui-header .ui-widget-header {
+text-align:left!important;
+font-size: 11px;
+font-weight: bold;
+border: 0px solid  transparent;
+background: #F9F8F6 ;
+overflow: hidden!important;
+color: #005B82;
+background-color:#CFE0EB !important
+
+}
+
+
+
+/*panel Tab settaggio*/
+.PanelMonitor {
+border:2px solid;
+border-left-color: #CFE0EB;
+border-top-color: #CFE0EB;
+border-right-color: #CFE0EB; 
+border-bottom-color: #CFE0EB;
+height:185px;
+margin-right:1%;
+margin-left:1%; 
+overflow:auto;
+}
+
+/*panel Tab settaggio*/
+/* .PanelSearch { */
+/* max-height: 220px!important; */
+/* overflow:auto; */
+/* } */
+
+
+
+
+
+.Tree {
+height:10%;
+overflow: auto;
+}
+
+/*panel Tab settaggio*/
+.PanelReconciliation {
+border:2px solid;
+border-left-color: #CFE0EB;
+border-top-color: #CFE0EB;
+border-right-color: #CFE0EB;
+border-bottom-color: #CFE0EB;
+height:auto;
+width:100%;
+margin-right:none;
+margin-left:none;
+}
+
+
+
+
+.WidthAccordian{
+	width:98%;
+}
+
+
+.WidthAccordianRec{
+	width:96%;
+}
+
+/*button in Tab Margin Calls */
+.VisualButton {
+width: 98%; 
+vertical-align: middle;
+text-align: left;
+display: inline;
+clear: none;
+margin-right: auto;
+font-size:13px !important;
+}
+
+.MyDetails .ui-widget-header{
+z-index:2005!important;
+border: 1px solid transparent;
+background: #F9F8F6!important;
+overflow: hidden;
+color: #005B82;
+padding-top: 0em!important;
+}
+
+.TextMainMenu {
+	font-size:12.5px!important;
+}
+
+/* .ui-tree .ui-tree-container { */
+
+/* height:100%!important; */
+/* overflow: auto!important; */
+/* background-color: white; */
+/* }	 */
+
+.MyList .ui-datalist-item{
+margin-left:0%;
+text-align: left!important;
+font-weight:bold;
+font-size: 13.5px;	
+}
+
+
+
+.ui-accordion-content{
+max-height:210px!important;
+padding: inherit!important
+overflow: overflow:auto!important;	
+}
+
+
+
+
+
+/*GUI INSERIRE */
+.ExportData {
+margin-top:0.3%!important;
+margin-left:2%;
+float:left; 
+
+}
+
+.ExportDatamargin {
+margin:0 auto!important; 
+}
+
+.FilterHidden{
+	display:none !important;
+}
+
+.FilterView{
+	diplay:block !important;
+	
+}
+
+
+.FilterPanel {
+height:20px; 
+margin-right:50px;
+margin-bottom:5px;
+}
+
+.ui-layout-unit .ui-layout-unit-content {
+padding-top:0em!important;
+padding: 0.2em 0em;
+border: 0px none;
+overflow:hidden!important;
+}
+
+.colGridTree {
+	background-color:white!important;
+	border:1px solid!important;
+border-left-color: #a8a8a8 !important;
+border-top-color: #a8a8a8!important;
+border-right-color: white !important;
+border-bottom-color:#a8a8a8 !important;
+
+}
+
+
+.colGridTreeButton {
+	vertical-align:bottom ;
+	background-color:white!important;
+	border:1px solid!important;
+border-left-color: white !important;
+border-top-color: #a8a8a8!important;
+border-right-color: #a8a8a8 !important;
+border-bottom-color:#a8a8a8 !important;
+}
+
+.panelRecMargin {
+	width:100%;
+	background-color:white!important;
+	border:1px solid!important;
+	
+}
+
+
+
+/* larghezza combobox Tabella marginFlow */
+.ui-selectonemenu-panel {
+min-width: 4%!important;
+}
+
+
+.MyInputField2 .ui-inputfield {
+width:80px!important;	
+}
+
+.MyDetailsError {
+width:14%;	
+}
+
+.MyDetailsIndez{
+z-index:2005!important;
+	
+}
+
+.MyDetails .ui-widget-header{
+border: 0px solid transparent;
+background: #F9F8F6!important;
+overflow: hidden;
+color: #005B82;
+padding-top: 0em!important;
+}
+
+.ColorRowMarginComponents {
+	background-color:#F9F8F6;
+}
+
+.ColorRowMarginComponentsEm {
+	background-color:white;
+}
+
+
+.panelui-panel .ui-panel-content {
+border: 0;
+background: none;
+padding: 0.0em 0em!important;
+height:80%!important
+}
+
+
+
+.ui-panel .ui-panel-content {
+border: 0;
+background: none;
+padding: 0.0em 0em!important;
+height:87%!important
+}
+
+.PanelCenterSuthMc {
+background-color: white;
+border: solid 1px #a8a8a8 ;
+box-shadow:2px 2px 3px #aaaaaa;
+margin-left: 0px;
+margin-bottom:0px;
+height:40%!important;
+}
+
+
+.SizeAmount{
+	width:90%!important;
+}
+
+.SizeWidthP{
+	width:86%!important;
+}
+
+.SizeWidthT{
+	width:84%!important;
+}
+
+.SizeWidthS{
+	width:80%!important;
+}
+
+.pippi{
+	margin-left:0%;  
+	margin-right:2%;
+	height:100% !important;
+}
+
+
+
+
+.PanelCenterSuth {
+background-color: white;
+border: solid 1px #a8a8a8 ;
+box-shadow:2px 2px 3px #aaaaaa;
+margin-left: 0px;
+margin-bottom:0px;
+height:42%!important;
+}
+
+
+.PanelDownloadManual {
+background-color: white;
+border: solid 1px #a8a8a8 ;
+box-shadow:2px 2px 3px #aaaaaa;
+margin-left: 0px;
+margin-bottom:0px;
+height:82%!important;
+}
+
+/*gestiore bordi tab view*/
+.ui-tabs-panels{	
+border: solid 1px #a8a8a8 !important;
+box-shadow:2px 2px 3px #aaaaaa;
+margin-left: 2px;
+height:60% !important;
+
+}
+
+
+
+.bodySize {
+	width:1280px !important;
+	height:1024px !important;
+}	
+	
+.formTreeMarginCall{
+	height:30%!important;
+	width: 100%!important;
+}
+
+.panelMarginazione{
+	width:100%;
+	height:300px;
+}	
+
+.colGridTree {
+	background-color:white!important;
+	border:1px solid!important;
+border-left-color: #a8a8a8 !important;
+border-top-color: #a8a8a8!important;
+border-right-color: white !important;
+border-bottom-color:#a8a8a8 !important;
+vertical-align: top;
+}
+
+
+
+
+/* .PanelSearch { */
+/* max-height: 327px!important; */
+/* overflow:auto; */
+/* } */
+
+.marginPanelTable{
+	height:100%!important;
+	
+}
+
+
+
+.PanelCenterNorth {
+border: solid 1px #a8a8a8 ;
+box-shadow:2px 2px 3px #aaaaaa;
+margin-left: 0px;
+margin-bottom:0%;
+height:53.5%!important;
+
+}
+
+.ui-panel .ui-panel-content {
+border: 0;
+background: none;
+padding: 0.0em 0em!important;
+height:90%!important
+}
+
+.pippo{
+	margin-left:0%;  
+	margin-right:2%;
+	height:100% !important;
+}
+
+
+.PanelCenterSuthMc {
+background-color: white;
+border: solid 1px #a8a8a8 ;
+box-shadow:2px 2px 3px #aaaaaa;
+margin-left: 0px;
+margin-bottom:0px;
+height:32%!important;
+}
+
+.SizeWidthP{
+	width:86%;
+}
+
+.SizeWidthS{
+	width:80%;
+}
+
+
+.SizeWidthT{
+	width:84%;
+}
+
+
+.pippi{
+	margin-left:0%;  
+	margin-right:2%;
+	height:100% !important;
+}
+
+.PanelCenterSuth {
+background-color: white!important;
+border: solid 1px #a8a8a8 ;
+box-shadow:2px 2px 3px #aaaaaa;
+margin-left: 0px;
+margin-bottom:0px;
+height:39%!important;
+overflo-x:auto!important;
+max-height: 38%!important;
+}
+
+.PanelTreasuryManagement{
+border: solid 1px #a8a8a8 ;
+box-shadow:2px 2px 3px #aaaaaa;
+margin-left: 0px;
+margin-bottom:0%;
+height:100%!important;	
+overflow-y:auto!important;	
+}
+
+.PanelMonitoring{
+margin-left: 0px;
+margin-bottom:0%;
+height:110%!important;
+overflow: auto!important;	
+	
+	
+}
+
+
+
+.fontTabelle{
+font-size:11.5px!important;
+text-align:right!important;
+color:#333!important;
+font-family: Tahoma!important;
+/* white-space:nowrap; */
+font-style: normal!important;;
+}
+
+.fontTabelleFleEURright{
+	font-size: 10.5px !important;
+	text-align: right !important;
+}
+
+.fontTabelleFleEURleft{
+	font-size: 10.5px !important;
+	text-align: left !important;
+}
+
+.TabSize{
+	background:lightgray;
+	font-size:12px;
+}
+
+.TabSizeBuffer{
+	background:lightgray;
+	font-size:13px!important;
+}
+
+.textSearch{
+	font-size:12.5px!important;
+}
+
+.textSelectSearch{
+	font-size:13px!important;
+	width:45%!important;
+}
+
+.commandButton{
+	background-color: #00693C!important;
+	color:white!important;
+	font-size:11px!important;
+}
+
+
+.col3mc{
+        width:15%;
+     }
+
+
+.ui-layout-north {
+	z-index: 1000 !important;
+	overflow: visible !important;
+}
+
+.ui-layout-north .ui-layout-unit-content {
+	overflow: visible !important;
+}
+.dialogText{
+	font-size:12px;
+}
+.exportText{
+	font-size:11px!important;
+}
+
+
+
+
+/*GUI SCROLL */
+.MyScroll .ui-datatable-scrollable-body {
+overflow-y: scroll!important;
+height: 88%!important;
+margin-right: 0%!important;
+}
+
+
+/*GUI SCROLL */
+.MyScrollRecMar .ui-datatable-scrollable-body {
+overflow-y: scroll!important;
+height: 200px!important;
+margin-right: 0%!important;
+
+}
+
+/*GUI SCROLL */
+.MyScrollBimiFee .ui-datatable-scrollable-body {
+overflow-y: scroll!important;
+height: 550px!important;
+margin-right: 0%!important;
+}
+
+
+.MyScrollDownload .ui-datatable-scrollable-body {
+overflow: auto!important;
+height: 400px!important;
+margin-right: 0%!important;
+}
+
+.MyScrollMargining .ui-datatable-scrollable-body {
+overflow: auto!important;
+height: 460px!important;
+}
+
+.MyColor1{
+	color:#CFE0EB;
+}
+
+.MyColor2{
+	color:white;
+}
+
+.MyScrollMf .ui-datatable-scrollable-body {
+overflow: auto!important;
+height: 62px!important;
+}
+
+.ui-dialog .ui-dialog-titlebar{
+border-top: none;
+border-right: none;
+border-left: none;
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+border-radius: 0;
+}
+
+
+
+
+
+.MyDialogColor{
+background-color:#DCDCDC!important;
+border: solid 1px #a8a8a8!important;
+z-index: 2010 !important;
+}
+
+}
+	
+}
+.MyDialogColorPanel{
+background-color:#DCDCDC!important;
+}
+
+.PosOk{
+	margin-left:10%!important;
+	margin-right:10%!important;
+	
+
+	}
+.MyTit .ui-widget-header{
+background:#DCDCDC!important;
+}
+
+
+.ui-state-error{
+border:solid 1px red !important;	
+}
+
+#tabView .TabSize a{
+	width:81%!important;
+	text-align:center!important;
+}
+
+
+	
+.TabSizeMc{
+	background:lightgray;
+	font-size:12px;
+	width:30%!important;
+}
+
+
+.TabSize{
+	background:lightgray;
+	font-size:12px;
+	width:34.2%!important;
+}
+
+.TabSizeSons{
+	background:lightgray;
+	font-size:12px;
+}
+
+.TabSizeRec{
+	background:lightgray;
+	font-size:12px;
+	width:42%!important;
+}
+
+.TabSizeTres{
+	background:lightgray;
+	font-size:12px;
+	width:42%!important;
+}
+
+.TabSizeAcSear{
+	background:lightgray;
+	font-size:12px;
+	width:20.2%!important;
+}
+
+#tabView .TabSizeRec a{
+	width:83%!important;
+	text-align:center!important;
+}
+
+#tabView .TabSizeAcSear a{
+	width:65%!important;
+	text-align:center!important;
+}
+#tabView .TabSizeTres a{
+	width:83%!important;
+	text-align:center!important;
+}
+
+.ui-tabs.ui-tabs-top > .ui-tabs-nav {
+	width:100.1%!important;
+}
+
+
+.MyScrollTresCash .ui-datatable-scrollable-body {
+overflow: auto!important;
+height: 225px!important;
+}
+
+.MyScrollTresCashFlexEUR .ui-datatable-scrollable-body {
+	overflow: auto!important;
+	height: 200px!important;
+}
+
+.MyScrollClientTot .ui-datatable-scrollable-body {
+overflow: auto!important;
+height: 120px!important;
+}
+
+
+.MyScrollClientTot2 .ui-datatable-scrollable-body {
+overflow: auto!important;
+height: 320px!important;
+}
+
+.MyScrollTresNoCash .ui-datatable-scrollable-body {
+overflow: auto!important;
+height: 110px!important;
+}
+
+/*GUI */
+.ui-datatable-header.ui-widget-header .headerTab{
+width:100%!important;	
+font-family:Tahoma!important;	
+font-size:18px!important;	
+font-weight:normal!important;
+color:#145583!important;
+text-align:left!important;
+background-color: #f5f5f5!important;
+border-bottom:1px solid #d1d4d7!important;
+height:26px;
+}
+
+.ui-datatable-header.ui-widget-header.ui-corner-top span.headerTab{
+	float:left!important;
+	margin:0px!important;
+	margin-top:1%!important;
+	margin-left:2px!important;
+	
+}
+
+/*GUI */
+.ui-datatable-header.ui-widget-header .headerTabLayoutWidthOpen{
+width:100%!important;	
+font-family:Tahoma!important;	
+font-size:18px!important;	
+font-weight:normal!important;
+color:#145583!important;
+text-align:left!important;
+background-color: #f5f5f5!important;
+border-bottom:1px solid #d1d4d7!important;
+height:26px;
+}
+
+
+
+/*GUI */
+.ui-datatable-header.ui-widget-header .headerTabSu{
+width:100%!important;	
+font-family:Tahoma!important;	
+font-size:18px!important;	
+font-weight:normal!important;
+color:#145583!important;
+text-align:left!important;
+background-color: #f5f5f5!important;
+border-bottom:1px solid #d1d4d7!important;
+height:5px;
+}
+
+.ui-datatable-header.ui-widget-header.ui-corner-top span.headerTabSu{
+	float:left!important;
+	margin:0px!important;
+	margin-top:1%!important;
+	margin-left:2px!important;
+	
+}
+
+
+
+.headerTabTitle{
+font-size:16px!important;	
+font-weight:normal!important;
+color:#145583!important;
+}
+/* .ui-datatable-header.ui-widget-header.ui-corner-top span.headerTabTitle, */
+/* .ui-datatable-header.ui-widget-header.ui-corner-top span.headerTabTitleSuth{ */
+/* 	text-align: center!important; */
+/* } */
+
+
+.ui-datatable-header.ui-widget-header .headerTabTitleSuth{
+text-align: center!important;
+width:100%!important;	
+font-size:16px!important;	
+font-weight:normal!important;
+color:#145583!important;
+border-top:1px solid #d1d4d7!important;
+
+}
+.headerTabTitleClientRep{
+font-size:16px!important;	
+font-weight:bold!important;
+color:#DD4814!important;
+}
+
+.PanelCenterSuthMasterData {
+background-color: white;
+margin-left: 0px;
+margin-bottom:0px;
+height:65%!important;
+}
+
+.PanelNorthMasterData {
+background-color: white;
+margin-left: 0px;
+margin-bottom:0px;
+height:20%!important;
+}
+
+.MyScrollMasterDataCash .ui-datatable-scrollable-body {
+overflow: auto!important;
+height: 190px!important;
+}
+
+.MyScrollMasterData .ui-datatable-scrollable-body {
+overflow: auto!important;
+height: 320px!important;
+margin-right:0%!important;
+}
+
+.MyScrollSingleMasterData .ui-datatable-scrollable-body {
+overflow: auto!important;
+height: 30px!important;
+border-style:solid;
+border-width:1px;
+}
+
+
+
+.MyNoselectCtpType {
+background-color::#CFE0EB !important;
+
+}
+.MyselectCtpType {
+background-color: #85b2cb!important;
+
+}
+
+.MyNoselectParent {
+background-color::#CFE0EB !important;
+
+}
+.MyselectParent {
+background-color: #85b2cb!important;
+
+}.MyNoselectAccount {
+background-color::#CFE0EB !important;
+
+}
+.MyselectAccount {
+background-color: #85b2cb!important;
+}
+
+
+.Myselect {
+background-color: #85b2cb!important;
+
+}
+
+.MyNoselect {
+background-color:#CFE0EB !important;
+
+}
+
+
+.MyselectEntity {
+background-color: #85b2cb!important;
+
+}
+
+.MyNoselectEntity {
+background-color:#CFE0EB !important;
+
+}
+
+.MyselectCounterParty {
+background-color: #85b2cb!important;
+
+}
+
+.MyNoselectCounterParty {
+background-color:#CFE0EB !important;
+
+}
+
+
+.MyselectType {
+background-color: #85b2cb!important;
+
+}
+
+.MyNoselectType {
+background-color:#CFE0EB !important;
+
+}
+
+.MyselectSubtype {
+background-color: #85b2cb!important;
+
+}
+
+.MyNoselectSubtype {
+background-colorr:#CFE0EB !important;
+
+}
+
+.MyselectPortfolio {
+background-color: #85b2cb!important;
+
+}
+
+.MyNoselectPortfolio {
+background-color::#CFE0EB !important;
+
+}
+
+
+
+.MyselectManual {
+background-color: #85b2cb!important;
+
+}
+
+.MyNoselectManual {
+background-color::#CFE0EB !important;
+
+}
+
+.MyselectStati {
+background-color: #85b2cb!important;
+
+}
+
+.MyNoselectStati {
+background-color::#CFE0EB !important;
+
+}
+
+.sendDealsToFOLPos{
+position:fixed!important;
+bottom:3%!important;
+margin-left:16%!important;
+}
+
+
+.tabView{
+height:89%!important;
+width:100%!important;
+float:right!important;
+}
+
+.MyBord .ui-menu-parent .ui-menu-child {
+border-style: solid!important;
+border-width: 0.1px!important;
+border-color:grey!important;	
+}
+
+.ui-selectcheckboxmenu-panel {
+border-style: solid!important;
+border-width: 1px!important;
+border-color:grey!important;
+}
+
+.ui-layout-resizer {
+	cursor:none!important;
+	
+}
+
+.RedBorder{
+border:solid 1px red !important;	
+}
+
+.trueImageCheck{
+	background-image: url('../images/icon_checked.gif')!important;
+	background-repeat: no-repeat;
+	margin-left: 50%!important;
+}
+
+.noShowRow{
+	display: none!important;
+
+}
+
+.siShowRow{
+	display: compact!important;
+
+}
+/*
+.ui-datatable .ui-datatable-data .MasterDataToAddCellClass {
+    border: 1px solid black;
+    background-color: white;rgb(205,227,252);
+    height: 18px;
+
+}*/
+
+.noBorders{	
+    
+}
+
+.noBorders tr{
+    border: none !important;
+}
+
+.noBorders td{
+    border: none !important;
+}
+
+.trueRED{	
+    color: red !important;
+}
+.recPanelGrid{
+height:275px!important;
+vertical-align:top!important
+}
+
+.BtnMar{
+margin-left:13%;	
+}
+
+.tabSel{
+	width: 120px !important;
+	box-shadow: none !important;	
+	font-size:12px!important;
+}
+
+.mainPanelClientDB{
+	width: 100% !important;
+	
+}
+
+.contentClientDB{
+	width: 100% !important;
+	margin-top: 2% !important;
+}
+
+.clientDBTable{
+	width: 50% !important;
+	margin-left: 28% !important;
+	text-align: center !important;	
+	height: 50% !important;
+}
+
+.selectClientDB{
+	width: 100% !important;
+	margin-top: 0% !important;
+}
+
+.buttonPanel{
+	width: 27% !important;
+	margin: 3% auto auto 68%;
+	text-align: center;
+}
+
+.dimPanel{
+	
+}
+
+.borderProd{
+	
+}
+
+.borderCol{
+border:solid 5px red;	
+}
+
+.dialogTextForMasterData{
+	font-size: 12px !important;
+	background: #CFE0EB !important;
+	border: none !important;
+	width: 100% !important;
+	height: 8px !important;
+	font-weight: normal !important;
+}
+
+.ui-widget-content .dialogTextForMasterDataInput.ui-inputfield.ui-inputtext.ui-widget.ui-state-default{
+	font-size: 11px !important;
+	width: 100% !important;
+	height: 13px !important;
+	font-weight: normal !important;
+	background: #CFE0EB !important;
+	background-color:#CFE0EB !important;
+	border:1px solid #CFE0EB!important;
+}
+
+.ui-widget-content .dialogTextForMasterDataInput.ui-inputfield.ui-inputtext.ui-widget.ui-state-default.ui-state-error{
+	border:1px solid red!important;
+}
+
+.checkbForAdd{
+	background: #CFE0EB;
+/* 	height: 17px !important; */
+}
+
+.heigthForButtAddMastrData{
+	height: 200px !important;
+}
+
+.ui-state-error{
+border:solid 1px red !important;	
+}
+
+.calendarPre .ui-datepicker-prev{
+	display:none!important;
+}
+
+.calendarNext .ui-datepicker-next{
+		display:none!important;
+}
+
+.calendarCss{
+	width:100%!important;
+	font-size:12px!important;
+}
+
+#selectPage .ui-widget-content{
+	margin:0 auto!important;
+}
+
+
+.unselectDate .ui-datepicker .ui-datepicker-current-day .ui-state-default{
+	width: 20px !important;
+	background-color: transparent;
+	color: #5F83B9 !important;
+}
+
+.calendarAlig{
+	vertical-align:top!important;
+}
+
+.clientTotalTable th{
+	height: 30px !important;
+}
+
+.pagBorder .ui-paginator{
+	border: none !important;
+}
+
+/*  .ui-datepicker-current-day{ */
+/*  padding: inherit!important; */
+/*  } */
+ 
+ .MyTextAddExcess{
+font-size:15px!important;	
+font-weight: bold!important;
+color:#145583!important;
+font-family: Tahoma!important;
+}
+
+.highlightStyleClass{
+	color:red!important;
+	
+}
+
+
+
+
+.ui-datatable-odd.rowcolorhighlightStyleClass, .rowcolorhighlightStyleClass {
+	 background-color: yellow !important;
+	   color: #333!important;
+     font-size: 11px;
+     font-family: Tahoma!important;
+     border:1px solid #d1d4d7!important;
+   
+  
+}
+
+
+
+
+
+.popupBackgColor{
+	background: gainsboro !important;
+}
+
+.trueSENT{
+	font-size:9px;
+	background-color: #F2FFEE !important;
+	color:#65A932!important;
+	border:1px solid d1d4d7!important;
+
+}
+
+.falseSENT{
+	font-size:9px;
+	background-color: #FFEFEF !important;
+	color:red!important;
+		border:1px solid d1d4d7!important;
+	
+	
+}
+
+.fontTabelleMonitoring{
+	font-size:10px !important;
+
+}
+
+.commButtHeigWid{
+	height: 39px!important;
+	width: 75px!important;
+}
+
+.heigThPointsButt{
+	width: 110px!important;
+}
+
+
+.ui-datatable-selectable.rowcolortrue {
+	 background-color: yellow !important;
+     font-size: 11px!important;
+     border:1px solid #d1d4d7!important;
+  
+}
+
+.rowcolorfalse {
+	 background-color: white;
+     font-size: 11px!important;
+          border:1px solid #d1d4d7!important;
+     
+  
+}
+
+.noBorders2{	
+    
+}
+
+.noBorders2 td{
+ background-color:white!important;
+  border: none !important;
+}
+
+
+.tabMonitEmptytrue{
+	margin:0 auto!important;
+	width:100%!important;
+}
+
+.RedBordertrue{
+border:solid 1px red !important;	
+font-size:10px !important;
+text-align:right !important;
+}
+
+.online{
+color:green !important;
+font-size:11px !important;
+}
+
+.offline{
+color:red !important;	
+font-size:11px !important;
+}
+
+#offlineDialog .ui-dialog-titlebar {
+display:none!important;
+}
+
+
+
+.Heigtdialog{
+background-color:#DCDCDC!important;
+border: solid 1px #a8a8a8!important;
+z-index: 2010 !important;
+height:350px!important;		
+}
+
+.PanelCollExc {
+height:300px!important;
+overflow:auto!important;	
+}
+
+.MyScrollMon .ui-datatable-scrollable-body {
+	height:500px!important;
+}	
+
+.MyScrollLayout .ui-datatable-scrollable-body {
+	height:100px!important;
+}
+
+
+.LayoutWidthOpen{
+	width:100%!important;
+}
+
+.LayoutWidthClose{
+		width:150%!important;
+	
+	}
+
+.MyScrollMasterDataMail .ui-datatable-scrollable-body {
+overflow-y: scroll!important;
+height: 495px!important;
+margin-right: 0px!important;
+}
+
+div.ui-dialog-titlebar.ui-widget-header.ui-helper-clearfix.ui-corner-top{
+	font-size:9px!important;
+}
+
+.borderSvil{
+border:solid 5px red;	
+}
+
+.borderCol{
+border:solid 5px red;	
+}
+
+.fontTabelleAuditleft{
+	font-size: 11px !important;
+	text-align: left !important;
+}
+	
+	.MyTextAddCashWithDrawal {
+	font-size:13px!important;	
+font-weight: bold!important;
+color:black!important;
+}
+	
+
+
+/*18-02-15  NUOVA GUI */	
+	
+	
+/*GUI #1 INIZIO HEADER*/
+
+
+
+/*GUI
+larghezza colonne per Intestazione principale*/      
+.colLogo{
+        width:10%;
+    	padding: 0px!important;
+        border:1px solid!important;
+        border-color:#D1D4D7!important;
+        border-top-color: #D1D4D7!important;
+     }
+     
+   
+     
+/*GUI HEADER          
+     /*larghezza colonne per Intestazione principale*/     
+.colWelcome{
+		text-align:right;
+        width:83%;
+      		padding: 0px;
+     }
+     
+/*GUI HEADER     
+          /*larghezza colonne per Intestazione principale*/ 
+          
+.colLogout{
+        width:7%; 
+		text-align:center;
+		border-left-color: green!important;
+		border-left-style: solid!important;
+		padding: 0px;
+     }
+
+
+
+
+.logout :hover{
+	color:red!important;
+}
+
+.MylayoutNorh{
+	height:55px!important;
+	padding-right:0px!important;
+			
+}
+
+
+.PanelGridsHeader{
+	
+	background-color: #00693C;
+	width:100%;
+	 color: #FFF!important;
+}
+
+
+.MyMenuBar {
+	background-color: #fff!important;
+	height:25px!important;
+	margin:0px!important;
+	
+}
+
+
+.MyBord .ui-menu-parent .ui-menu-child {
+border: 1px solid!important;
+border-color:#d1d4d7!important;	
+background:transparent!important;
+background-color: #F5F5F5!important;
+padding:0px!important;
+border-radius: 0px 0px 0px 0px!important;
+
+}
+
+
+
+/*GUI    HEADER */
+.TextMainMenu {
+font-family: Tahoma!important;
+font-size:12.5px!important;
+border-left-color: #dcdcdc!important;
+border-left-style: solid!important;
+border-top-color: #dcdcdc!important;
+border-top-style: solid!important;
+border-width: 1px!important;
+color:#333!important;
+}
+
+
+
+.TextMainMenu .ui-menuitem-link{
+	color:#333!important;
+}
+
+
+
+
+a.ui-menuitem-link.ui-corner-all.ui-state-hover{
+	background:inherit;
+	font-weight: normal!important;
+	color:#00693C!important;
+	border:none!important;
+	box-shadow:none!important; 	
+			border-radius: 0px 0px 0px 0px!important;
+	
+}
+
+a.ui-menuitem-link.ui-corner-all.subMenuColor.ui-state-hover{
+	background:#00693C!important;
+		background-color:#00693C !important;
+	font-weight: normal!important;
+	color:white!important; 
+	border:none!important;
+	box-shadow:none!important; 	
+	width:95.5%!important;
+	border-radius: 0px 0px 0px 0px!important;
+	
+	}
+	
+
+/* GUI Modifica icona hover per menu item */ 
+.ui-menuitem-link.ui-corner-all.ui-state-hover span.ui-icon{
+			background-image: url('../images/sprite-3.png')!important;
+	
+}
+
+/*GUI HEADER FINE */	
+
+
+
+/*GUI */
+.ui-layout-resizer {
+	cursor:none!important;
+	background-color: #dcdcdc!important;
+	top:103px!important;
+	z-index: -100!important;
+}
+
+
+
+
+
+/*GUI LEFT */
+
+/*GUI
+Proprieta header left layout*/
+.Myui-widget-header-left .ui-widget-header {
+text-align:right;
+font-size: 11px;
+font-weight: bold;
+border: 0px solid  transparent;
+background: #F5F5F5!important ;
+overflow: hidden;
+color: #145583!important;
+
+
+}
+
+/*GUI
+Proprieta header left layout*/
+.Myui-widget-header-ricon .ui-widget-header {
+text-align:left;
+font-size: 11px;
+font-weight: bold;
+border: 0px solid  transparent;
+overflow: hidden;
+color: #145583!important;
+
+}
+
+
+
+
+
+
+/* GUI #4# LEFT-TREE HEADER-LEFT  
+inizio
+*/	
+.formTreeMarginCall{
+	height:28.8%!important;
+	width: 100%!important;
+}
+
+.panelMarginazione{
+	width:100%;
+	height:81%!important;
+}	
+
+
+ .header-left .ui-layout-unit-header{
+/*  margin-right:0.5%!important; */
+ margin-left:33.9%!important;
+ border:1px solid #d1d4d7!important;
+ z-index: -108 !important;
+ height:3%!important;
+ margin-bottom:-1.3%!important;
+ border-radius:0px 0px 0px 0px!important;
+ border-left:0px solid transparent!important;
+ border-top-color:transparent!important;
+ border-right-color:transparent!important;
+ padding-left:0px!important;
+ }
+ 
+ .header-left .ui-layout-unit-content{
+  z-index: -200 !important;
+  top:-31px!important;
+ 
+ }
+ 
+ 
+  .header-left .ui-layout-unit-header .ui-layout-unit-header-icon{
+  border-color:transparent!important;
+  border-left:1px solid #d1d4d7!important;
+  box-shadow:none!important;
+  background: transparent!important;
+  margin-top:-6px!important;
+  height:35px!important;
+  width:35px!important;
+  padding:0px!important;
+  margin-bottom:0px!important;
+  }
+  
+  
+    .header-left .ui-layout-unit-header .ui-layout-unit-header-icon .ui-icon-triangle-1-w{
+    margin:8px 5px 5px 12px!important;
+    }
+    
+    
+    .header-left .ui-layout-unit-header .ui-layout-unit-header-icon.ui-state-hover .ui-icon-triangle-1-w{
+    background-image: url("../images/sprite-3.png")!important;
+    }
+    
+    
+    .ui-layout-unit.header-left{
+    width:29.8%!important;
+    } 
+    
+    .columnLeftCalendar{
+    background:#f5f5f5!important;
+    border:1px solid #d1d4d7!important;
+    border-top-color:transparent!important;
+    padding-right:0px!important;
+    }
+
+/*GUI  */
+.colGridTree {
+	background-color:white!important;
+	border:1px solid!important;
+border-color: #d1d4d7 !important;
+vertical-align: top!important;
+}
+
+/*GUI  */
+.colGridTreeButt {
+	background-color:white!important;
+	border:1px solid!important;
+border-color: #d1d4d7 !important;
+}
+
+/*GUI */
+.TextBanca{
+	font-size: 13px; 
+	font-weight: bold;
+	color:#333!important;
+		font-family: Tahoma, Verdana, Segoe, sans-serif!important;
+	
+}
+/*GUI */
+.TextCH{
+	font-size: 12px; 
+	font-weight: bold;
+	color:#333!important;
+		font-family: Tahoma, Verdana, Segoe, sans-serif!important;
+	
+}
+/*GUI */
+
+.TextFirstCall{
+	font-size: 13px!important; 
+	color:#333!important;
+		font-family: Tahoma, Verdana, Segoe, sans-serif!important;
+	
+}
+/*GUI */
+
+.TextItdCall{
+	font-size: 13px!important;
+	color:#333!important;
+		font-family: Tahoma, Verdana, Segoe, sans-serif!important;
+	
+}
+
+.ui-chkbox .ui-chkbox-box{
+	background-color: white!important;
+	border: 1px solid!important;
+	border-color: #2A7DB8!important;
+	border-radius:0px!important;
+}
+
+
+.TreeNew .ui-widget-content .ui-state-highlight{
+	background-color:transparent!important;
+}
+
+
+.ui-tree .ui-treenode-label.ui-state-highlight{
+	background: none!important;
+	text-shadow: none!important;
+}
+.ui-tree .ui-treenode-label.ui-state-hover{
+	background-color:#F99D1A!important;
+}
+
+.ui-tree .ui-treenode-label.ui-state-hover.ui-state-highlight{
+	background-color:#F99D1A!important;
+}
+
+
+/*GUI */
+.treeContainer .ui-tree-container {
+
+height:130px;
+overflow: auto;
+background-color: white;
+}	
+
+/* GUI #4# TREE LEFT
+fine
+*/	
+
+
+/*GUI Text */
+.dialogText{
+	font-size:11px!important;
+	font-family: Tahoma!important;
+	color:#333!important;
+		font-style: normal!important;
+		font-weight: normal!important;
+	
+}
+
+/*GUI Text */
+.dialogTextMc{
+	font-size:10.5px!important;
+	font-family: Tahoma!important;
+	color:#145583!important;
+	font-style: normal!important;
+}
+
+
+
+/*GUI #2# CALENDAR
+INSERIRE CSS IN LINE  MyCalendar1 MyHoverCal
+INIZIO
+*/
+.ui-inputfield, .ui-widget-content .ui-inputfield, .ui-widget-header .ui-inputfield {
+background: #fff!important;
+border: 1px solid!important;
+border-color:#D1D4D7!important;
+box-shadow:none!important;
+font-weight: normal!important;
+
+}
+
+
+.MyCalendar1	.ui-inputfield{
+	font-size: 12px!important;
+	text-align:left!important;
+	font-weight: normal!important;
+}
+
+
+/*GUI */	
+.MyCalendar1 .ui-button {
+background: #CFE0EB!important;
+border-radius:5px!important;
+border:1px solid  #CFE0EB!important;
+}	
+
+
+.MyHoverCal .ui-state-hover {
+	background-color:#F99D1A!important;
+	border:1px solid  #F99D1A!important;
+	box-shadow:none!important;
+	color:white!important;
+	
+}
+
+.ui-datepicker {
+padding: 0px !important;
+border: 1px solid #d1d4d7 !important;
+	}
+
+/*GUI */
+.ui-datepicker .ui-datepicker-header {
+	background: black!important;
+	border-bottom:top!important;
+		border-bottom:none!important;	
+	border-radius:5px!important;
+	}
+	
+.ui-datepicker-title {
+	color:#CFE0EB!important;
+	font-family: Tahoma!important;
+	text-transform: uppercase!important;
+	border:none!important;
+}	
+
+.ui-datepicker table {
+		font-family: Tahoma, Verdana, Segoe, sans-serif!important;
+	color:#333!important;
+		text-transform: uppercase!important;
+		border:none!important;
+	
+}
+
+.ui-datepicker-calendar{
+	background: #f5f5f5!important;
+	border:1px solid!important;
+	border-color:#d1d4d7!important;
+}
+
+.ui-datepicker .ui-datepicker-calendar .ui-state-default{
+	background-color: #CFE0EB!important;
+	border-radius:5px!important;
+}	
+
+
+
+.ui-datepicker .ui-datepicker-calendar .ui-state-hover{
+	background-color: #f99d1a!important;
+	border-radius:5px!important;
+	color:white!important;
+}	
+
+.ui-datepicker .ui-datepicker-current-day .ui-state-highlight, .ui-datepicker .ui-datepicker-current-day .ui-state-default{
+		background-color: #2a7db8!important;
+		color:white!important;
+	
+}
+
+/*GUI Modifica colore freccia next calendario Hover */
+.ui-datepicker-next.ui-corner-all.ui-state-hover.ui-datepicker-next-hover span{
+		border:none!important;
+		background-image: url('../images/sprite-3.png')!important;
+		
+	
+}
+
+/*GUI Modifica colore freccia prev calendario Hover */
+.ui-datepicker-prev.ui-corner-all.ui-state-hover.ui-datepicker-prev-hover span{
+		background-image: url('../images/sprite-3.png')!important;
+	
+}
+
+
+
+
+
+.ui-datepicker-next:hover{
+	border-color:transparent!important;
+box-shadow:none!important;
+}
+
+
+.ui-datepicker-prev:hover{
+	border-color:transparent!important;
+box-shadow:none!important;
+	
+}
+
+.ui-datepicker-trigger.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-icon-only.ui-state-focus{
+	background-color:#2a7db8!important;
+}
+
+
+/*GUI #2 FINE 
+CALENDAR INSERIRE */
+
+
+
+
+/*GUI #6# BUTTON
+INIZIO 
+ */
+ /*GUI */
+ 
+ .ui-button{
+ box-shadow:none!important;
+ }
+.commandButton{
+	background-color: #347F54!important;
+	color:white!important;
+	font-size:11px!important;
+	border-radius:5px!important;
+	font-family: Tahoma, Verdana, Segoe, sans-serif!important;
+	border:1px solid!important;
+	border-color:#22653f!important;
+	margin-top:0.4%!important;
+	box-shadow:none!important;
+	font-style: normal!important;
+	font-weight: normal;
+}
+
+/*GUI
+button in Tab Margin Calls */
+.VisualButton {
+width: 98%; 
+vertical-align: middle;
+text-align: left;
+display: inline;
+clear: none;
+margin-right: auto;
+font-size:13px !important;
+background-color: #CFE0EB!important;
+font-family: Tahoma!important;
+color:#145583!important;
+border-radius:5px!important;
+font-weight: normal!important;
+}
+
+ 
+.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only.commandButton.ui-state-hover{
+	background-color: #276F46!important;
+}
+
+
+/*GUI */
+.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only.VisualButton.ui-state-hover{
+	background-color: #f99d1a!important;
+	color:white!important;
+	border-radius:5px!important;
+}
+
+
+/*GUI */
+.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only.VisualButton.ui-state-focus{
+	background-color: #2a7db8!important;
+	color:white!important;
+	border-radius:5px!important;
+}	
+
+/*GUI */
+.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only.VisualButton.ui-state-focus.ui-state-hover{
+	background-color: #f99d1a!important;
+	color:white!important;
+	border-radius:5px!important;
+}
+
+
+
+
+/*GUI #6# BUTTON
+FINE 
+ */
+ 
+ 
+ /*GUI ICONE #3#
+INIZIO
+*/
+.ui-state-default .ui-icon {
+background-image: url('../images/sprite-1new.png')!important;
+}
+
+
+.ui-state-hover .ui-icon {
+background-image: url('../images/sprite-2.png')!important;
+}
+
+.ui-state-active .ui-icon {
+background-image: url('../images/sprite-2.png')!important;
+}
+
+.ui-state-focus .ui-icon {
+background-image: url('../images/sprite-2.png')!important;
+}
+
+
+/*GUI ICONE #3#
+FINE
+*/
+
+
+
+
+
+
+
+
+
+/*GUI 7*/
+
+.ui-accordion .ui-accordion-header {
+cursor: pointer;
+position: relative;
+margin-top: 1px;
+zoom: 1;
+color: #145583!important;
+}
+
+.imagep{
+position:absolute;
+left:4px;
+top:19px;
+}
+
+
+/*GUI 7*/
+
+
+
+/* GUI #7# TAB LEFT 
+inizio
+*/
+
+.tabView{
+height:95%!important;
+width:100%!important;
+float:right!important;
+}
+
+/* 
+/*GUI 7
+Colore selezione Tab Panel */
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a {
+cursor: text;
+background: #2a7db8!important;
+color:#FFFFFF!important;
+border-bottom-color: #2a7db8!important;
+font-family: Tahoma!important;
+border-radius:5px 5px 0px 0px !important;
+}
+
+/*GUI 7*/
+.ui-tabs .ui-tabs-nav li a{
+	box-shadow:none!important;
+	background-color: transparent!important;
+	font-family:Tahoma!important;
+	color:#145583!important;
+	border-radius:5px!important;
+	font-weight: normal!important;
+}
+
+/*GUI 7*/
+.ui-tabs .ui-tabs-nav li.ui-state-default{
+	background:none!important;
+	background-color:#CFE0EB!important;
+		border-radius:5px 5px 0px 0px !important;
+			border-color:transparent!important;
+				box-shadow:none!important;
+			
+			
+	
+}
+
+/*GUI 7*/
+
+
+.ui-tabs .ui-tabs-nav li.ui-state-hover a{
+	background-color:#f99d1a!important;
+	color:white!important;
+	font-family: Tahoma!important;
+		border-radius:5px 5px 0px 0px !important;
+	
+	
+}
+
+/* GUI #7# */
+#tabView .TabSize a{
+	width:82%!important;
+	text-align:center!important;
+}
+
+
+	
+.TabSizeMc{
+	background:lightgray;
+	font-size:12px;
+	width:30%!important;
+}
+
+
+.TabSize{
+	background:lightgray;
+	font-size:12px;
+	width:34.2%!important;
+}
+
+.TabSizeSons{
+	background:lightgray;
+	font-size:12px;
+}
+
+.TabSizeRec{
+	background:lightgray;
+	font-size:12px;
+	width:42%!important;
+}
+
+.TabSizeTres{
+	background:lightgray;
+	font-size:12px;
+	width:42%!important;
+}
+
+.TabSizeAcSear{
+	background:lightgray;
+	font-size:12px;
+	width:20.2%!important;
+}
+
+/* GUI #7# */
+#tabView .TabSizeRec a{
+	width:85%!important;
+	text-align:center!important;
+	border-radius:5px 5px 0px 0px!important;
+}
+
+/* GUI #7# */
+#tabView .TabSizeAcSear a{
+	width:69%!important;
+	text-align:center!important;
+}
+/* GUI #7# */
+#tabView .TabSizeTres a{
+	width:85%!important;
+	text-align:center!important;
+}
+
+.ui-tabs.ui-tabs-top > .ui-tabs-nav {
+	width:100.1%!important;
+}
+
+
+/* GUI #7# INSERIRE BORDO TAB*/
+.ui-tabs-panels{	
+border: solid 1px #FFC169 !important;
+box-shadow:none !important;
+margin-left: 2px;
+height:61% !important;
+background-color: #FCF8EA!important;
+}
+
+/* GUI #7# TAB LEFT 
+FINE
+*/
+
+
+/*GUI #8# ACCORDIAN
+INIZIO
+*/
+
+/*GUI */
+.ui-accordion-content{
+max-height:210px!important;
+padding: 0px!important;
+border:1px solid #d1d4d7!important;
+border-top:none!important;
+margin-right: 1px!important;
+margin-left: 1px!important;
+
+}
+
+
+.ui-accordion .ui-accordion-header {
+	background-color: #CFE0EB!important;
+	border-radius:5px!important;
+	box-shadow:none!important;
+}
+
+
+.ui-accordion .ui-accordion-header a {
+		background-color: #CFE0EB!important;
+	color:#145583!important;
+	font-family: Tahoma!important;
+	font-weight: normal !important;
+		border-radius:5px!important;
+	
+}
+
+
+.ui-accordion-header.ui-helper-reset.ui-state-default.ui-corner-all.TabSizeBuffer.ui-state-hover a{
+	background-color:#f99d1a!important;
+	font-family: Tahoma!important;
+	color:white!important;
+	
+}
+
+
+.ui-accordion-header.ui-helper-reset.ui-state-default.TabSizeBuffer.ui-state-active.ui-corner-top a{
+	background-color:#2a7db8!important;
+	font-family: Tahoma!important;
+		color:white!important;
+		border-radius:5px 5px 0px 0px!important;
+	
+}
+
+.ui-accordion-header.ui-helper-reset.ui-state-default.ui-corner-all.TabSizeSons.ui-state-hover a{
+	background-color:#f99d1a!important;
+	font-family: Tahoma!important;
+	color:white!important;
+	
+}
+
+.ui-accordion-header.ui-helper-reset.ui-state-default.TabSizeSons.ui-state-active.ui-corner-top a{
+	background-color:#2a7db8!important;
+	font-family: Tahoma!important;
+		color:white!important;
+		border-radius:5px 5px 0px 0px!important;
+	
+}
+
+/* GUI 8*/
+.MyRecMarPanel {
+	background-color: #FFFFFF;
+	font-size:15px;
+	border:none!important;
+}
+
+.rowRic{
+background-color: white!important;
+border:none!important;
+width:500px!important;
+color:#145583!important;
+}	
+
+.rowRic:hover{
+background-color: #f99d1a!important;
+color:white!important;
+border:none!important;
+width:500px!important;
+
+}	
+
+.rowRicUpdating	{
+background-color: white!important;
+border:none!important;
+width:500px!important;
+color:#145583!important;
+width:500px!important;
+
+}	
+
+
+.MyTextRec {
+width:100%!important;	
+font-size:14px!important;	
+font-weight: nornal!important;
+font-family:Tahoma!important;
+background-color: transparent!important;
+color:#145583!important;
+font-weight: normal;
+}
+
+/*GUI 7*/
+.MyTextRec:hover {
+	width:100%!important;	
+font-size:14px!important;	
+font-weight: nornal!important;
+font-family:Tahoma!important;
+background-color: transparent!important;
+color:white!important;
+}
+
+/*GUI */
+.sendDealsToFOLPos{
+position:fixed!important;
+bottom:3%!important;
+margin-left:14.5%!important;
+}
+
+/*GUI ACCORDIAN
+FINE
+*/
+
+
+/* GUI #5# chkbox */
+.ui-chkbox-icon.ui-icon.ui-icon-check{
+		background-image: url("../images/sprite-1new.png") !important;
+}
+
+.ui-chkbox-icon.ui-icon.ui-icon-check:hover{
+		background-image: url("../images/sprite-2.png") !important;
+		background-color: #f99d1a!important;
+	
+	
+}
+/* GUI Fine Check box */	
+
+
+
+
+/*GUI INSERT ADVANCED SEARCH 03-02-15
+ 	INIZIO
+ */
+.AdvancedSearchButnonGroup{
+float:right;margin-top:5px!important;
+margin-right:2%!important;
+margin-bottom:5px!important;
+}
+
+
+/*GUI INSERT */
+.ui-panelgrid.panelAdvanceSearch{
+	width:96%!important;
+	margin:auto!important;
+	border-color:transparent!important;
+	border-bottom: 1px solid #d1d4d7!important;
+}
+
+/*GUI INSERT */
+.columAdvanceSearchLeft{
+	border:none!important;
+	width:48%!important;;
+	padding-left:0px!important
+	
+}
+
+/*GUI INSERT */
+.columAdvanceSearchRight{
+	border:none!important;
+	width:48%!important;
+	padding-right:0px!important;
+}
+
+
+
+.ui-selectcheckboxmenu-panel{
+	padding: 0px!important;
+	border:1px solid #d1d4d7!important;
+}
+
+
+.ui-widget-header.ui-corner-all.ui-selectcheckboxmenu-header{
+	margin:0px!important;
+	background:none!important;
+	background-color: #CFE0EB!important;
+	border-bottom:1px solid #145583!important;
+	border-left:none!important;
+		border-right:none!important;
+		border-top:none!important;
+	border-radius:0px!important;
+}
+
+
+.ui-selectcheckboxmenu{
+	border-radius:5px!important;
+	height:25px!important;
+	
+	
+}
+.ui-selectcheckboxmenu .ui-selectcheckboxmenu-trigger{
+	border:none!important;
+	background:transparent!important;
+		background-color:#CFE0EB!important;	
+		box-shadow:none!important;
+	
+}
+
+.ui-selectcheckboxmenu .ui-selectcheckboxmenu-label{
+	color:#145583!important;
+	font-family:Tahoma!important;
+	font-weight:normal!important;
+	font-size:12px!important;
+	padding: 5px 0px 4px 8px!important;
+		border:1px solid #CFE0EB!important;
+	background:transparent!important;	
+	background-color:#CFE0EB!important;	
+	border-radius:5px!important;
+}
+
+
+.ui-selectcheckboxmenu .ui-selectcheckboxmenu-trigger.ui-state-hover{
+	border:none!important;
+	background-color: #f99d1a!important;
+}
+
+
+.ui-selectcheckboxmenu .ui-selectcheckboxmenu-label.ui-state-hover{
+	color:#fff!important;
+	background:#f99d1a!important;
+	background-color: #f99d1a!important;
+	border-color:none!important;
+	border-radius:5px!important;	
+	border-color:transparent!important;
+	box-shadow:none!important;
+		border:1px solid #f99d1a!important;
+	border-radius:5px!important;
+}
+	
+}
+
+
+
+.ui-selectcheckboxmenu-items{
+		background-color: #fff!important;
+		border-left:1px solid #d1d4d7!important;
+	border-right:1px solid #d1d4d7!important;
+		
+	
+}
+.ui-selectcheckboxmenu-item{
+		border-bottom:1px solid #d1d4d7!important;
+			height:15px!important;
+			margin-bottom: 0px !important;
+		
+}
+
+.ui-selectcheckboxmenu-item.ui-selectcheckboxmenu-checked{
+	background-color: #ECF5FB!important;
+}
+
+
+
+
+.ui-selectcheckboxmenu-item .ui-chkbox-box{
+	margin-top: -2px!important;
+	margin-left:-2px!important;
+}
+
+
+.ui-selectonemenu-label{
+	box-shadow:none!important;
+}
+
+.ui-selectonemenu-items{
+		border-top:1px solid #d1d4d7!important;
+	
+		background-color: #fff!important;
+		border-left:1px solid #d1d4d7!important;
+	border-right:1px solid #d1d4d7!important;
+	padding:0px!important;
+		
+	
+}
+.ui-selectonemenu-item{
+		border-bottom:1px solid #d1d4d7!important;
+			height:15px!important;
+			margin-bottom: 0px !important;
+			margin-top:0px!important;
+			font-family: Tahoma;
+		
+}
+
+
+.ui-selectonemenu-item.ui-state-hover{
+	border:none!important;
+		border-bottom:1px solid #d1d4d7!important;
+			height:15px!important;
+			margin-bottom: 0px !important;
+			font-family: Tahoma;
+			background-color:orange!important;
+			color:#fff!important;
+			background: orange!important;
+			border-radius:0px!important;
+						box-shadow:none!important;
+			
+		
+}
+
+.ui-selectonemenu-item.ui-state-highlight{
+		border:none!important;
+		border-bottom:1px solid #d1d4d7!important;
+			height:15px!important;
+			margin-bottom: 0px !important;
+			font-family: Tahoma;
+			background-color: #ECF5FB!important;
+			color:#333;
+		
+}
+
+.ui-selectonemenu-item.ui-state-highlight:hover{
+	border:none!important;
+		border-bottom:1px solid #d1d4d7!important;
+			height:15px!important;
+			margin-bottom: 0px !important;
+			font-family: Tahoma;
+			background-color:orange!important;
+			color:#fff!important;
+			background: orange!important;
+			border-radius:0px!important;
+			box-shadow:none!important;
+}
+
+
+/*GUI*/
+.ui-selectcheckboxmenu-close .ui-icon.ui-icon-circle-close{
+background-image: url("../images/sprite-1new.png") !important;
+width: 18px !important;
+height: 18px !important;
+background-position: -30px -191px !important;
+}
+
+/*GUI*/
+
+.ui-selectcheckboxmenu-close .ui-icon.ui-icon-circle-close:hover{
+background-image: url("../images/sprite-2.png") !important;
+width: 18px !important;
+height: 18px !important;
+background-position: -30px -191px !important;
+border-color: transparent!important;
+}
+
+/*GUI */
+.ui-selectcheckboxmenu-close.ui-state-hover{
+	border-color: transparent!important;
+	background:none!important;
+	box-shadow:none!important;
+
+
+}
+
+.ui-selectcheckboxmenu-filter-container .ui-icon.ui-icon-search{
+	display: block !important;
+background-image: url("../images/sprite-1new.png") !important;
+width: 18px !important;
+height: 18px !important;
+background-position: -173px -162px !important;
+border-radius:5px!important;
+}
+
+
+.ui-selectcheckboxmenu.ui-widget{
+	border:none!important;
+}
+
+.ui-widget-content .colunHidden {
+	visibility: hidden!important;
+	padding:0px!important;
+	width: 0%!important; 
+	margin:0px!important;
+	border-color:transparent;
+} 
+
+.ui-widget-content .colunHiddenLeft {
+margin-left:-5px!important;
+	}
+
+/* .ui-state-default.lente{ */
+/* 	width:3.3%!important; */
+/* } */
+
+.MyselectCtpAdv.ui-selectcheckboxmenu .ui-selectcheckboxmenu-trigger,
+.MyselectStatusAdv.ui-selectcheckboxmenu .ui-selectcheckboxmenu-trigger,
+.MyselectTypeAdv.ui-selectcheckboxmenu .ui-selectcheckboxmenu-trigger,
+.MyselectCcyAdv.ui-selectcheckboxmenu .ui-selectcheckboxmenu-trigger{
+	border:none!important;
+	background-color: #2a7db8!important;
+}
+
+.MyselectCtpAdv.ui-selectcheckboxmenu .ui-selectcheckboxmenu-trigger.ui-state-hover,
+.MyselectStatusAdv.ui-selectcheckboxmenu .ui-selectcheckboxmenu-trigger.ui-state-hover,
+.MyselectTypeAdv.ui-selectcheckboxmenu .ui-selectcheckboxmenu-trigger.ui-state-hover,
+.MyselectCcyAdv.ui-selectcheckboxmenu .ui-selectcheckboxmenu-trigger.ui-state-hover{
+	border:none!important;
+	background: transparent!important;
+	background-color: #f99d1a!important;
+} 
+
+.MyNoselectCtpAdv,
+.MyNoselectStatusAdv,
+.MyNoselectTypeAdv,
+.MyNoselectCcyAdv {
+background-color:#CFE0EB !important;
+}
+
+.MyselectCtpAdv.ui-selectcheckboxmenu .ui-selectcheckboxmenu-label,
+.MyselectStatusAdv.ui-selectcheckboxmenu .ui-selectcheckboxmenu-label,
+.MyselectTypeAdv.ui-selectcheckboxmenu .ui-selectcheckboxmenu-label,
+.MyselectCcyAdv.ui-selectcheckboxmenu .ui-selectcheckboxmenu-label{
+	background-color: #2a7db8!important;
+	color:#fff!important;
+	border:1px solid #2a7db8!important;
+	border-radius:5px!important;
+}
+
+.MyselectCtpAdv.ui-selectcheckboxmenu .ui-selectcheckboxmenu-label.ui-state-hover,
+.MyselectStatusAdv.ui-selectcheckboxmenu .ui-selectcheckboxmenu-label.ui-state-hover,
+.MyselectTypeAdv.ui-selectcheckboxmenu .ui-selectcheckboxmenu-label.ui-state-hover,
+.MyselectCcyAdv.ui-selectcheckboxmenu .ui-selectcheckboxmenu-label.ui-state-hover{
+	background-color: #f99d1a!important;
+	color:#fff!important;
+	border:1px solid #f99d1a!important;
+		
+	
+}
+
+.MyselectCtpAdv .ui-selectcheckboxmenu-trigger .ui-icon,
+.MyselectStatusAdv .ui-selectcheckboxmenu-trigger .ui-icon,
+.MyselectTypeAdv .ui-selectcheckboxmenu-trigger .ui-icon,
+.MyselectCcyAdv .ui-selectcheckboxmenu-trigger .ui-icon{
+	background-image: url("../images/sprite-2.png") !important;
+}
+
+/* ADVANCED SEARCH FINE
+
+*/
+
+/*GUI PENDING LIST INIZIO */
+.ui-menu .ui-menuitem {
+margin:0px!important;	
+	}
+
+	
+	
+.ui-datalist-content.ui-widget-content	ul.ui-datalist-data{
+	padding-left: 20px!important;
+	margin:0px!important;
+	background-color: white!important;
+	color:#145583!important;
+	font-family: Tahoma!important;
+		font-weight: normal!important;
+	
+	
+}
+
+
+/* .ui-datalist-content.ui-widget-content	ul.ui-datalist-data:hover{ */
+/* 	padding-left: 20px!important; */
+/* 	margin:0px!important; */
+/* 	background-color:#f99d1a!important; */
+/* 	color:white!important; */
+/* 	font-family: Tahoma!important; */
+/* 	font-weight: normal!important; */
+	
+	
+/* } */
+
+.MyList .ui-datalist-content .ui-datalist-data:hover{
+	background-color:#f99d1a!important;
+	color:white!important;
+	font-family: Tahoma!important;
+	font-weight: normal!important;
+}
+
+.MyPendingList{
+	background-color: transparent!important;
+	color:#145583!important;
+	font-family: Tahoma!important;
+		font-weight: normal!important;
+	
+}
+
+
+.MyPendingList:hover{
+	background-color: transparent!important;
+	color:white!important;
+	font-family: Tahoma!important;
+		font-weight: normal!important;
+}
+
+/*GUI PENDING LIST FINE */ 
+
+
+
+/*GUI INSERT TAB SEARCH 04-02-15
+ 	INIZIO
+ */
+.ui-panelgrid.panelTabSearch{
+	width:93%!important;
+	margin:auto!important;
+	border-color:transparent!important;
+}
+
+.columSearchLeft{
+	border:none!important;
+	width:46.5%!important;
+	padding-left:0px!important;
+		padding-bottom:0px!important;
+	
+}
+
+.classSearch .ui-widget-content{
+background-color: #FCF8EA!important;
+}
+
+/*GUI INSERT */
+.columSearchRight{
+	border:none!important;
+	width:46.5%!important;
+	padding-right:0px!important;
+		padding-bottom:0px!important;
+	
+}
+
+.columSearchLeft2{
+	border:none!important;
+	width:31%!important;
+	padding-left:0px!important;
+		padding-bottom:0px!important;
+	
+}
+
+/*GUI INSERT */
+.columSearchRight3{
+	border:none!important;
+	width:31%!important;
+	padding-right:0px!important;
+	
+}
+.columSearchLeft3{
+	border:none!important;
+	width:31%!important;
+	padding-left:0px!important;
+	
+}
+
+/*GUI INSERT */
+.columSearchRight2{
+	border:none!important;
+	width:31%!important;
+	padding-right:0px!important;
+		padding-bottom:0px!important;
+	
+}
+
+/*GUI SEARCH SCROLL */
+.PanelSearch {
+	max-height: 395px!important;
+overflow:auto!important;
+}
+
+.ui-panelgrid.panelTabSearchLast{
+	width:93%!important;
+	margin:auto!important;
+	border-color:transparent!important;
+	border-bottom:1px solid #d1d4d7!important;
+}
+
+
+
+
+
+/*GUI COLOR SELECT MAI MENU*/ 
+
+
+.Myselect.ui-selectcheckboxmenu .ui-selectcheckboxmenu-trigger{
+	border:none!important;
+	background-color: #2a7db8!important;
+}
+
+.Myselect.ui-selectcheckboxmenu .ui-selectcheckboxmenu-trigger.ui-state-hover{
+	border:none!important;
+	background-color: #f99d1a!important;
+}
+
+
+.MyNoselect {
+background-color:#CFE0EB !important;
+}
+
+.Myselect.ui-selectcheckboxmenu .ui-selectcheckboxmenu-label{
+	background-color: #2a7db8!important;
+	color:#fff!important;
+	border:1px solid #2a7db8!important;
+	border-radius:5px!important;
+}
+
+.Myselect.ui-selectcheckboxmenu .ui-selectcheckboxmenu-label.ui-state-hover{
+	background-color: #f99d1a!important;
+	color:#fff!important;
+	border:1px solid #f99d1a!important;
+}
+
+.Myselect .ui-selectcheckboxmenu-trigger .ui-icon{
+	background-image: url("../images/sprite-2.png") !important;
+}
+
+.MyselectEntity.ui-selectcheckboxmenu .ui-selectcheckboxmenu-trigger{
+	border:none!important;
+	background-color: #2a7db8!important;
+}
+
+.MyselectEntity.ui-selectcheckboxmenu .ui-selectcheckboxmenu-trigger.ui-state-hover{
+	border:none!important;
+	background-color: #f99d1a!important;
+	
+}
+
+
+.MyNoselectEntity {
+background-color:#CFE0EB !important;
+}
+
+.MyselectEntity.ui-selectcheckboxmenu .ui-selectcheckboxmenu-label{
+	background-color: #2a7db8!important;
+	color:#fff!important;
+	border:1px solid #2a7db8!important;
+	border-radius:5px!important;
+}
+
+.MyselectEntity.ui-selectcheckboxmenu .ui-selectcheckboxmenu-label.ui-state-hover{
+	background-color: #f99d1a!important;
+	color:#fff!important;
+	border:1px solid #f99d1a!important;
+}
+
+.MyselectEntity .ui-selectcheckboxmenu-trigger .ui-icon{
+	background-image: url("../images/sprite-2.png") !important;
+}
+
+
+
+.MyselectCounterParty.ui-selectcheckboxmenu .ui-selectcheckboxmenu-trigger{
+	border:none!important;
+	background-color: #2a7db8!important;
+}
+
+.MyselectCounterParty.ui-selectcheckboxmenu .ui-selectcheckboxmenu-trigger.ui-state-hover{
+	border:none!important;
+	background-color: #f99d1a!important;
+}
+
+.MyNoselectCounterParty {
+background-color:#CFE0EB !important;
+}
+
+.MyselectCounterParty.ui-selectcheckboxmenu .ui-selectcheckboxmenu-label{
+	background-color: #2a7db8!important;
+	color:#fff!important;
+	border:1px solid #2a7db8!important;
+	border-radius:5px!important;
+}
+
+.MyselectCounterParty.ui-selectcheckboxmenu .ui-selectcheckboxmenu-label.ui-state-hover{
+	background-color: #f99d1a!important;
+	color:#fff!important;
+	border:1px solid #f99d1a!important;
+}
+
+.MyselectCounterParty .ui-selectcheckboxmenu-trigger .ui-icon{
+	background-image: url("../images/sprite-2.png") !important;
+}
+
+
+
+.MyselectType.ui-selectcheckboxmenu .ui-selectcheckboxmenu-trigger{
+	border:none!important;
+	background-color: #2a7db8!important;
+}
+
+.MyselectType.ui-selectcheckboxmenu .ui-selectcheckboxmenu-trigger.ui-state-hover{
+	border:none!important;
+	background-color: #f99d1a!important;
+}
+
+.MyNoselectType {
+background-color:#CFE0EB !important;
+}
+
+.MyselectType.ui-selectcheckboxmenu .ui-selectcheckboxmenu-label{
+	background-color: #2a7db8!important;
+	color:#fff!important;
+	border:1px solid #2a7db8!important;
+	border-radius:5px!important;
+}
+
+.MyselectType.ui-selectcheckboxmenu .ui-selectcheckboxmenu-label.ui-state-hover{
+	background-color: #f99d1a!important;
+	color:#fff!important;
+	border:1px solid #f99d1a!important;
+}
+
+.MyselectType .ui-selectcheckboxmenu-trigger .ui-icon{
+	background-image: url("../images/sprite-2.png") !important;
+}
+
+
+
+.MyselectSubtype.ui-selectcheckboxmenu .ui-selectcheckboxmenu-trigger{
+	border:none!important;
+	background-color: #2a7db8!important;
+}
+
+.MyselectSubtype.ui-selectcheckboxmenu .ui-selectcheckboxmenu-trigger.ui-state-hover{
+	border:none!important;
+	background-color: #f99d1a!important;
+}
+
+.MyNoselectSubtype {
+background-colorr:#CFE0EB !important;
+}
+
+.MyselectSubtype.ui-selectcheckboxmenu .ui-selectcheckboxmenu-label{
+	background-color: #2a7db8!important;
+	color:#fff!important;
+	border:1px solid #2a7db8!important;
+	border-radius:5px!important;
+}
+
+.MyselectSubtype.ui-selectcheckboxmenu .ui-selectcheckboxmenu-label.ui-state-hover{
+	background-color: #f99d1a!important;
+	color:#fff!important;
+	border:1px solid #f99d1a!important;
+}
+
+.MyselectSubtype .ui-selectcheckboxmenu-trigger .ui-icon{
+	background-image: url("../images/sprite-2.png") !important;
+}
+
+
+.MyselectPortfolio.ui-selectcheckboxmenu .ui-selectcheckboxmenu-trigger{
+	border:none!important;
+	background-color: #2a7db8!important;
+}
+
+.MyselectPortfolio.ui-selectcheckboxmenu .ui-selectcheckboxmenu-trigger.ui-state-hover{
+	border:none!important;
+	background-color: #f99d1a!important;
+}
+
+.MyNoselectPortfolio {
+background-color:#CFE0EB !important;
+}
+
+.MyselectPortfolio.ui-selectcheckboxmenu .ui-selectcheckboxmenu-label{
+	background-color: #2a7db8!important;
+	color:#fff!important;
+	border:1px solid #2a7db8!important;
+	border-radius:5px!important;
+}
+
+.MyselectPortfolio.ui-selectcheckboxmenu .ui-selectcheckboxmenu-label.ui-state-hover{
+	background-color: #f99d1a!important;
+	color:#fff!important;
+	border:1px solid #f99d1a!important;
+}
+
+.MyselectPortfolio .ui-selectcheckboxmenu-trigger .ui-icon{
+	background-image: url("../images/sprite-2.png") !important;
+}
+
+
+.MyselectManual.ui-selectcheckboxmenu .ui-selectcheckboxmenu-trigger{
+	border:none!important;
+	background-color: #2a7db8!important;
+}
+
+.MyselectManual.ui-selectcheckboxmenu .ui-selectcheckboxmenu-trigger.ui-state-hover{
+	border:none!important;
+	background-color: #f99d1a!important;
+} 
+
+.MyNoselectManual {
+background-color:#CFE0EB !important;
+}
+
+.MyselectManual.ui-selectcheckboxmenu .ui-selectcheckboxmenu-label{
+	background-color: #2a7db8!important;
+	color:#fff!important;
+	border:1px solid #2a7db8!important;
+	border-radius:5px!important;
+}
+
+.MyselectManual.ui-selectcheckboxmenu .ui-selectcheckboxmenu-label.ui-state-hover{
+	background-color: #f99d1a!important;
+	color:#fff!important;
+	border:1px solid #f99d1a!important;
+}
+
+.MyselectManual .ui-selectcheckboxmenu-trigger .ui-icon{
+	background-image: url("../images/sprite-2.png") !important;
+}
+
+
+.MyselectStati.ui-selectcheckboxmenu .ui-selectcheckboxmenu-trigger{
+	border:none!important;
+	background-color: #2a7db8!important;
+}
+
+.MyselectStati.ui-selectcheckboxmenu .ui-selectcheckboxmenu-trigger.ui-state-hover{
+	border:none!important;
+	background: transparent!important;
+	background-color: #f99d1a!important;
+} 
+
+.MyNoselectStati {
+background-color:#CFE0EB !important;
+}
+
+.MyselectStati.ui-selectcheckboxmenu .ui-selectcheckboxmenu-label{
+	background-color: #2a7db8!important;
+	color:#fff!important;
+	border:1px solid #2a7db8!important;
+	border-radius:5px!important;
+}
+
+.MyselectStati.ui-selectcheckboxmenu .ui-selectcheckboxmenu-label.ui-state-hover{
+	background-color: #f99d1a!important;
+	color:#fff!important;
+	border:1px solid #f99d1a!important;
+		
+	
+}
+
+.MyselectStati .ui-selectcheckboxmenu-trigger .ui-icon{
+	background-image: url("../images/sprite-2.png") !important;
+}
+
+
+/*GUI FINE SEARCH */
+
+/*GUI  PANNELLO NORTH*/
+.PanelCenterNorth {
+border-right: none !important;
+border-top: none !important;
+box-shadow:none !important;
+border-bottom:5px solid #dcdcdc !important;
+margin-left: 0px;
+margin-right:0px!important;
+margin-bottom:0%;
+height:67.5%!important;
+border-right:none!important;
+width:100%!important;
+
+}
+
+
+/* GUI Gif Excel su table default */
+.MyExportExcel{
+	display: block !important;
+background-color: none !important;
+background-image: url("../images/excelNew.gif") !important;
+width: 18px !important;
+height: 18px !important;
+margin: 0.5px!important;
+background-repeat: no-repeat;!important
+}
+
+.MyExportDataLable{
+	color:#347F54!important;
+	font-family: Tahoma!important;
+	font-weight: bold!important;
+	background-color: none!important;
+	margin: 0.5px!important;
+	
+	
+}
+
+
+.ColumnExportExcel{
+	border: 1px solid rgb(209, 212, 215)!important;
+		background-color: white!important;
+	
+}	
+
+.ColumnExportExcel:visited{
+	background-color: #1D608D !important;
+	
+	}
+	
+.ColumnExportExcel:hover{
+	background-color: #f99d1a !important;
+	
+	}	
+	
+/* EXPORT Excek*/	
+
+
+/*GUI CONTEXT MENU */
+.ui-contextmenu{
+	padding:0px!important;
+	border-top:1px solid #CFE0EB!important;
+	border-left:1px solid #CFE0EB!important;
+	border-right:1px solid #CFE0EB!important;
+		color:#145583!important;
+	width:13%;
+	
+}
+
+.ui-contextmenu .ui-menu-list .ui-menuitem.ui-widget.ui-corner-all{
+		background-color: #FFF!important;
+	color:#145583!important;
+	border-bottom:1px solid #CFE0EB!important;
+}
+
+.ui-contextmenu .ui-menu-list .ui-menuitem.ui-widget.ui-corner-all:hover{
+		background-color: #2a7db8!important;
+	color:#FFF!important;
+	
+}
+
+
+.ui-contextmenu .ui-menu-list .ui-menuitem.ui-widget.ui-corner-all .ui-menuitem-link {
+		color:#145583!important;
+		font-family: Tahoma!important;
+		font-size:13px!important;
+		width: 93%!important;
+}
+.ui-contextmenu .ui-menu-list .ui-menuitem.ui-widget.ui-corner-all .ui-menuitem-link:hover {
+
+		color:#fff!important;
+		font-family: Tahoma!important;
+		font-size:13px!important;
+			border:1px solid #2a7db8!important;
+		
+		
+}
+
+.ui-contextmenu .ui-menu-list .ui-menuitem.ui-widget.ui-corner-all .ui-menuitem-link .ui-menuitem-icon.ui-icon.ui-icon-search{
+	background-image: url("../images/icon-menu.png") !important;
+	background-position: -88px 2px!important;
+	width:25px!important;
+	border-radius: 0px 0px 0px 0px!important;
+	}
+	
+	
+.ui-contextmenu .ui-menu-list .ui-menuitem.ui-widget.ui-corner-all .ui-menuitem-link .ui-menuitem-icon.ui-icon.ui-icon-details{
+	background-image: url("../images/icon-menu.png") !important;
+	background-position: -134px 1px!important;
+	width:25px!important;
+		border-radius: 0px 0px 0px 0px!important;
+	
+	}	
+
+	
+	
+	.ui-contextmenu .ui-menu-list .ui-menuitem.ui-widget.ui-corner-all .ViewMC:hover > .ui-menuitem-icon.ui-icon.ui-icon-search{
+	background-image: url("../images/icon-menu.png") !important;
+	background-position: -88px -21px!important;
+	width:25px!important;
+		border-radius: 0px 0px 0px 0px!important;
+	
+	}
+	
+	
+.ui-contextmenu .ui-menu-list .ui-menuitem.ui-widget.ui-corner-all .det:hover > .ui-menuitem-icon.ui-icon.ui-icon-details{
+	background-image: url("../images/icon-menu.png") !important;
+	background-position: -134px -22px!important;
+	width:25px!important;
+		border-radius: 0px 0px 0px 0px!important;
+		color:#fff!important;
+	
+	}
+	
+	
+.ui-contextmenu .ui-menu-list .ui-menuitem.ui-widget.ui-corner-all .ui-menuitem-link .ui-menuitem-icon.ui-icon.ui-icon-pencil{
+	background-image: url("../images/icon-menu.png") !important;
+	background-position: 3px 2px!important;
+	width:25px!important;
+	border-radius: 0px 0px 0px 0px!important;
+	}
+	
+	.ui-contextmenu .ui-menu-list .ui-menuitem.ui-widget.ui-corner-all .editCont:hover > .ui-menuitem-icon.ui-icon.ui-icon-pencil{
+	background-image: url("../images/icon-menu.png") !important;
+	background-position: 3px -22px!important;
+	width:25px!important;
+		border-radius: 0px 0px 0px 0px!important;
+		color:#fff!important;
+	
+	}
+	
+	
+	.ui-contextmenu .ui-menu-list .ui-menuitem.ui-widget.ui-corner-all .ui-menuitem-link .ui-menuitem-icon.ui-icon.ui-icon-cancel{
+	background-image: url("../images/icon-menu.png") !important;
+	background-position: -18px 2px!important;
+	width:25px!important;
+	border-radius: 0px 0px 0px 0px!important;
+	}
+	
+	.ui-contextmenu .ui-menu-list .ui-menuitem.ui-widget.ui-corner-all .cancCont:hover > .ui-menuitem-icon.ui-icon.ui-icon-cancel{
+	background-image: url("../images/icon-menu.png") !important;
+	background-position: -18px -22px!important;
+	width:25px!important;
+		border-radius: 0px 0px 0px 0px!important;
+		color:#fff!important;
+	
+	}
+	
+	
+	.ui-contextmenu .ui-menu-list .ui-menuitem.ui-widget.ui-corner-all .ui-menuitem-link .ui-menuitem-icon.ui-icon.ui-icon-insert{
+	background-image: url("../images/icon-menu.png") !important;
+	background-position: -65px 2px!important;
+	width:25px!important;
+	border-radius: 0px 0px 0px 0px!important;
+	}
+	
+	.ui-contextmenu .ui-menu-list .ui-menuitem.ui-widget.ui-corner-all .newCont:hover > .ui-menuitem-icon.ui-icon.ui-icon-insert{
+	background-image: url("../images/icon-menu.png") !important;
+	background-position: -65px -22px!important;
+	width:25px!important;
+		border-radius: 0px 0px 0px 0px!important;
+		color:#fff!important;
+	
+	}
+	
+	
+		.ui-contextmenu .ui-menu-list .ui-menuitem.ui-widget.ui-corner-all .ui-menuitem-link .ui-menuitem-icon.ui-icon.ui-icon-addInt{
+	background-image: url("../images/icon-menu.png") !important;
+	background-position: -110px 2px!important;
+	width:25px!important;
+	border-radius: 0px 0px 0px 0px!important;
+	}
+	
+	.ui-contextmenu .ui-menu-list .ui-menuitem.ui-widget.ui-corner-all .addCont:hover > .ui-menuitem-icon.ui-icon.ui-icon-addInt{
+	background-image: url("../images/icon-menu.png") !important;
+	background-position: -110px -22px!important;
+	width:25px!important;
+		border-radius: 0px 0px 0px 0px!important;
+		color:#fff!important;
+	
+	}
+	
+	
+		.ui-contextmenu .ui-menu-list .ui-menuitem.ui-widget.ui-corner-all .ui-menuitem-link .ui-menuitem-icon.ui-icon.ui-icon-canc-ins{
+	background-image: url("../images/icon-menu.png") !important;
+	background-position: -42px 2px!important;
+	width:25px!important;
+	border-radius: 0px 0px 0px 0px!important;
+	}
+	
+	.ui-contextmenu .ui-menu-list .ui-menuitem.ui-widget.ui-corner-all .cancInsCont:hover > .ui-menuitem-icon.ui-icon.ui-icon-canc-ins{
+	background-image: url("../images/icon-menu.png") !important;
+	background-position: -42px -22px!important;
+	width:25px!important;
+		border-radius: 0px 0px 0px 0px!important;
+		color:#fff!important;
+	
+	}
+
+	
+	/*GUI CONTEXT MENU FINE */
+
+
+
+/*GUI 
+INIZIO
+ inserire panel in marginazione PER DETTAGLI  */
+	
+.ui-widget-content .ui-panelgrid.panelGridMC  {
+	width:100%!important;
+	overflow: auto!important;
+	background-color:fff!important;
+	
+}
+
+.panelGridMC .ui-widget-content {
+	border:1px solid #d1d4d7!important;
+		background-color:fff!important;
+	
+}	
+	
+.panelGridMA .ui-widget-content {
+	border:1px solid #d1d4d7!important;
+	
+}
+
+ .viewMcColorLabel{
+ background-color:#fff!important;
+ 
+ }
+ 
+ .viewMcColor{
+ background-color:#f3f3f3!important;
+ 
+ }
+
+.panelGridInsertMA .ui-widget-content {
+	border-color:transparent!important;
+	background-color:#fff!important;
+	
+}
+	
+/* fine */	
+
+
+.nowrap{
+	white-space:nowrap!important;
+}
+
+
+/*GUI *INIZIO bottone add */	
+	.buttAdd{
+		background-image: url("../images/addRowNew.png") !important;
+background-repeat: no-repeat !important;
+width: 22px;
+height: 22px;
+background-position: -4px -6px !important;
+background-color: rgb(207, 224, 235) !important;
+border-radius:5px!important;
+	}
+	
+	.buttAdd.ui-state-hover{
+			background-image: url("../images/addRowNew.png") !important;
+background-repeat: no-repeat !important;
+width: 22px;
+height: 22px;
+background-position: -4px -35px !important;
+background-color: #f99d1a !important;
+border-radius:5px!important;
+	
+	}
+	
+	
+		.buttAdd.ui-state-focus{
+			background-image: url("../images/addRowNew.png") !important;
+background-repeat: no-repeat !important;
+width: 22px;
+height: 22px;
+background-position: -4px -35px !important;
+background-color: #2a7db8 !important;
+border-radius:5px!important;
+	
+	}
+	
+	
+		.buttAdd.ui-state-hover.ui-state-focus{
+			background-image: url("../images/addRowNew.png") !important;
+background-repeat: no-repeat !important;
+width: 22px;
+height: 22px;
+background-position: -4px -35px !important;
+background-color: #f99d1a !important;
+border-radius:5px!important;
+	
+	}
+	
+	
+	.ui-state-error{
+border:solid 1px red !important;	
+}
+
+/*GUI INSERIRE ERROR INPUT */
+.ui-inputfield.ui-state-error{
+	border:1px solid red!important;
+}
+
+
+
+
+/*GUI DIALOG 
+INIZIO
+Header Dialog */
+.ui-dialog .ui-dialog-titlebar{
+background: none!important;
+border-bottom:1px solid #2a7db8!important;
+background-color: #CFE0EB!important;
+font-family: Tahoma!important;
+font-size: 13px!important;
+margin:auto!important;
+padding-top: 8px !important;
+padding-bottom: 8px !important;
+color:#145583!important;
+}
+
+/*GUI*/
+.ui-dialog-titlebar-icon .ui-icon.ui-icon-closethick{
+background-image: url("../images/sprite-1new.png") !important;
+width: 18px !important;
+height: 18px !important;
+background-position: -30px -189px !important;
+}
+
+/*GUI*/
+
+.ui-dialog-titlebar-icon .ui-icon.ui-icon-closethick:hover{
+background-image: url("../images/sprite-2.png") !important;
+width: 18px !important;
+height: 18px !important;
+background-position: -30px -189px !important;
+border-color: transparent!important;
+}
+
+/*GUI */
+.ui-dialog-titlebar-icon.ui-state-hover{
+	border-color: transparent!important;
+	background:none!important;
+	box-shadow:none!important;
+
+
+}
+
+
+
+/*GUI */
+.ui-dialog.ui-widget.ui-widget-content{
+	border:1px solid #2a7db8!important;
+	
+}
+/*GUI */
+.ui-dialog.ui-widget.ui-widget-content.MyLoad{
+	border:none!important;
+	
+}
+/*GUI */
+.ui-dialog.ui-widget.ui-widget-content.MyDialogColor{
+background-color:white!important;
+z-index: 9999!important;
+
+}
+
+/*GUI COLORE DIALOG COMMENT*/
+.ui-dialog.ui-widget.ui-widget-content.MyDialogColorComment{
+background-color:#f3f3f3!important;
+	
+}
+
+/*GUI COLORE DIALOG COMMENT*/
+.ui-dialog.ui-widget.ui-widget-content.MyDialogColorCommenttrue{
+background-color:white!important;
+	
+}
+
+/*GUI COLORE DIALOG COMMENT*/
+.ui-dialog.ui-widget.ui-widget-content.MyDialogColorCommentfalse{
+background-color:#f3f3f3!important;
+	
+}
+
+/*GUI Panel Header New inserire in prototype*/
+.MyPanelDialog{
+	background-color: #fff!important;
+}
+
+	
+/*GUI COLORE DIALOG COMMENT*/
+.MyDialogColorPanel{
+background-color:#f3f3f3!important;
+}
+
+.PosOk{
+	margin-left:10%!important;
+	margin-right:10%!important;
+	
+
+	}
+	
+/*GUI DIALOG FINE   */	
+.MyTit .ui-widget-header{
+background:#DCDCDC!important;
+}
+
+.dialogBut{
+	float:right!important;
+}
+
+/* GUI PAGINATOR 05-02-15
+INIZIO
+*/
+.ui-paginator-page.ui-state-default{
+	background:#CFE0EB!important;
+background-color: #CFE0EB!important;
+	border:1px solid #CFE0EB!important;
+
+border-radius:5px!important;	
+color:#145583!important;
+} 
+
+
+.ui-paginator-page.ui-state-default:hover{
+	background-color: #f99d1a!important;
+border-radius:5px!important;	
+	border:1px solid #f99d1a!important;
+color:#fff!important;
+} 
+
+.ui-paginator-page.ui-state-active{
+	background:#2a7db8!important;
+	background-color: #2a7db8!important;
+	border:1px solid #2a7db8!important;
+border-radius:5px!important;	
+color:#fff!important;
+}
+
+
+.ui-paginator-page.ui-state-active:hover{
+	background-color: #f99d1a!important;
+border-radius:5px!important;	
+	border:1px solid #f99d1a!important;
+color:#fff!important;
+}
+
+
+
+.ui-paginator-next.ui-state-default{
+	background:#CFE0EB!important;
+background-color: #CFE0EB!important;
+	border:1px solid #CFE0EB!important;
+border-radius:5px!important;	
+color:#145583!important;
+} 	
+
+.ui-paginator-next.ui-state-default:hover{
+	background-color: #f99d1a!important;
+border-radius:5px!important;	
+	border:1px solid #f99d1a!important;
+color:#fff!important;
+} 
+
+.ui-paginator-next.ui-state-default.ui-state-disabled:hover{
+	background:#CFE0EB!important;
+background-color: #CFE0EB!important;
+	border:1px solid #CFE0EB!important;
+border-radius:5px!important;	
+color:#145583!important;
+}
+
+.ui-paginator-prev.ui-state-default{
+	background:#CFE0EB!important;
+background-color: #CFE0EB!important;
+	border:1px solid #CFE0EB!important;
+border-radius:5px!important;	
+color:#145583!important;
+} 	
+
+.ui-paginator-prev.ui-state-default:hover{
+	background-color: #f99d1a!important;
+border-radius:5px!important;	
+	border:1px solid #f99d1a!important;
+color:#fff!important;
+} 
+
+.ui-paginator-prev.ui-state-default.ui-state-disabled:hover{
+	background:#CFE0EB!important;
+background-color: #CFE0EB!important;
+	border:1px solid #CFE0EB!important;
+border-radius:5px!important;	
+color:#145583!important;
+} 
+
+
+.ui-paginator-last.ui-state-default{
+		background:#CFE0EB!important;
+background-color: #CFE0EB!important;
+	border:1px solid #CFE0EB!important;
+border-radius:5px!important;	
+color:#145583!important;
+}
+
+
+.ui-paginator-last.ui-state-default:hover{
+	background-color: #f99d1a!important;
+border-radius:5px!important;	
+	border:1px solid #f99d1a!important;
+color:#fff!important;
+}
+
+.ui-paginator-last.ui-state-default.ui-state-disabled:hover{
+		background:#CFE0EB!important;
+background-color: #CFE0EB!important;
+	border:1px solid #CFE0EB!important;
+border-radius:5px!important;	
+color:#145583!important;
+}
+
+
+.ui-paginator-first.ui-state-default{
+		background:#CFE0EB!important;
+background-color: #CFE0EB!important;
+	border:1px solid #CFE0EB!important;
+border-radius:5px!important;	
+color:#145583!important;
+}
+
+
+.ui-paginator-first.ui-state-default:hover{
+	background-color: #f99d1a!important;
+border-radius:5px!important;	
+	border:1px solid #f99d1a!important;
+color:#fff!important;
+}
+
+.ui-paginator-first.ui-state-default.ui.state-disabled:hover{
+		background:#CFE0EB!important;
+background-color: #CFE0EB!important;
+	border:1px solid #CFE0EB!important;
+border-radius:5px!important;	
+color:#145583!important;
+}
+
+.ui-paginator-first.ui-state-default.ui-corner-all.ui-state-disabled .ui-icon.ui-icon-seek-first {
+    background-position: -80px -163px!important;
+}
+
+.ui-paginator-first.ui-state-default.ui-corner-all .ui-icon.ui-icon-seek-first {
+    background-position: -80px -163px!important;
+}
+
+.ui-paginator-last.ui-state-default.ui-corner-all.ui-state-disabled .ui-icon.ui-icon-seek-end {
+    background-position: -64px -163px!important;
+}
+
+.ui-paginator-last.ui-state-default.ui-corner-all .ui-icon.ui-icon-seek-end {
+    background-position: -64px -163px!important;
+}
+
+
+.ui-paginator-next.ui-state-default.ui-corner-all.ui-state-disabled .ui-icon.ui-icon-seek-next{
+	 background-position: -32px -163px!important;
+}
+
+.ui-paginator-next.ui-state-default.ui-corner-all .ui-icon.ui-icon-seek-next{
+	 background-position: -32px -163px!important;
+}
+
+.ui-paginator-pre.ui-state-default.ui-corner-all.ui-state-disabled .ui-icon.ui-icon-seek-prev{
+	 background-position: -48px -163px!important;
+}
+
+.ui-paginator-prev.ui-state-default.ui-corner-all .ui-icon.ui-icon-seek-prev{
+	 background-position: -48px -163px!important;
+}
+
+
+
+.ui-paginator-rpp-options{
+	border-radius:5px!important;
+	background-color: #CFE0EB!important;
+	border:1px solid #CFE0EB!important;
+	color:#145583!important;
+}
+
+
+/* GUI FINE PAGINATOR */
+
+
+.PanelMonit{
+	height:105%!important;
+	overflow:auto!important;
+}
+
+
+
+.PanelMonitLayoutWidthOpen{
+		height:102%!important;
+	
+}
+
+.PanelMonitLayoutWidthClose{
+	overflow-x: scroll;
+	height:102%!important;
+	}
+
+/*GUI toggle expand Inizio */
+.ui-row-toggler {
+	background-image: url("../images/sprite-1new.png") !important;	
+}
+
+.ui-row-toggler:hover {
+	background-image: url("../images/sprite-3.png") !important;	
+}
+
+.ui-datatable-selectable:hover .ui-row-toggler,
+.ui-datatable-selectable:hover .ui-row-toggler:hover   {
+	background-image: url("../images/sprite-2.png") !important;	
+}
+
+
+
+.MyColorExpand{
+	background-color: #E7E7E7!important;
+	
+}
+
+
+/*Nasconde l'header delle colonne*/
+.hide-column-names table thead tr {
+    display: none;
+}
+
+
+/* GUI EXPAND */
+.ui-datatable-data .ui-expanded-row-content > td{
+	padding:0px!important;
+	border-left: 1px solid #D1D4D7 !important;
+border-right: 1px solid #D1D4D7 !important;
+border-top:1px solid transparent !important;
+border-bottom: 1px solid transparent !important;
+}
+
+
+
+
+/* GUI TABELLA */
+.ui-datatable thead th, .ui-datatable tbody td, .ui-datatable tfoot td {
+padding: 2px 10px;
+overflow: hidden;
+/* border-width: 2px; */
+border-style: solid;
+}
+
+/*GUI toggle expand FINE*/
+
+
+/*GUI 
+INIZIO
+SELECT HOVER DATATABLE */
+
+.ui-datatable-odd {
+    background: #ECF5FB!important;
+
+}
+
+
+.ui-datatable-odd.ui-state-hover{
+	background:#f99d1a!important;
+	background-color:#f99d1a!important;
+	color:#fff!important;
+}
+
+.ui-datatable-odd.ui-state-hover .fontTabelle{
+
+	color:#fff!important;
+}
+
+.ui-datatable-even.ui-state-hover{
+	background:#f99d1a!important;
+	background-color:#f99d1a!important;
+		color:#fff!important;
+	
+}
+
+.ui-datatable-even.ui-state-hover .fontTabelle{
+		color:#fff!important;
+	
+}
+
+
+
+/*FINE SELECT HOVER DATATABLE */
+.totLabelColMonitoringDialog{
+	border:1px solid #d1d4d7!important;
+	background-color:#F3F3F3!important;
+	width:50%;
+	text-align:right;
+	font-weight:bold;
+	}
+	
+.totAmountColMonitoringDialog{
+	border:1px solid #d1d4d7!important;
+	background-color:#FFF!important;
+	width:50%
+}	
+.totalM{
+	font-style:normal!important;font-weight: normal !important;
+	font-family: Tahoma!important;
+	text-align:right!important;
+	background-color: #fff!important;
+	border:1px solid #d1d4d7!important;
+	color:#333!important;
+	font-size:12px;
+}
+
+.totalLabelM{
+		border:1px solid #d1d4d7!important;
+	background-color:#F3F3F3!important;
+	text-align:right;
+	font-weight:bold;
+		font-size:12px;
+	
+}
+
+.layoutLeft{
+	height:100%;top:112px!important
+}
+
+
+.ui-expanded-row-content.ui-widget-content.rowExpansionAudit td{
+	background:#fff;
+	border:1px solid #d1d4d7!important;
+}
+
+
+.calendarCss .ui-datepicker .ui-datepicker-calendar .ui-state-default{
+color: #5F83B9!important;
+width:14px!important;	
+}
+
+.calendarCss .ui-datepicker .ui-datepicker-calendar .ui-state-hover{
+color: #fff!important;
+width:14px!important;	
+}
+
+.unselectDate .ui-datepicker .ui-datepicker-current-day .ui-state-active{
+	background-color: #CFE0EB!important;
+	color: #5F83B9 !important;
+}
+/* .unselectDate .ui-datepicker .ui-datepicker-current-day .ui-state-default.ui-state-active.ui-state-hover{ */
+/* 	background-color: #CFE0EB!important; */
+/* 	color: red !important; */
+/* } */
+
+.selectDate .ui-datepicker .ui-datepicker-current-day .ui-state-default{
+background-color: #2a7db8!important;
+		color:white!important;
+}
+
+
+.ui-datepicker .ui-datepicker-current-day .ui-state-active:hover{
+	background-color: #f99d1a!important;
+		color:#fff!important;
+}
+
+.ui-datepicker-week-end.ui-datepicker-days-cell-over.ui-datepicker-unselectable.ui-state-disabled.ui-datepicker-current-day .ui-state-default{
+	background-color: #CFE0EB!important;
+}
+
+
+
+
+.PanelNorthMasterData {
+background-color: #f5f5f5!important;
+margin-left: 0px;
+margin-bottom:0px;
+height:25%!important;
+border-bottom:5px solid #dcdcdc !important;
+
+}
+
+/* GUI PanelNorthMasterData INIZIO */
+.PanelNorthMasterData .ui-panel-titlebar{
+width:100%!important;
+border: 0px solid  transparent;
+background: #f5f5f5 ;
+color: #145583;
+font-family: Tahoma!important;
+font-size: 18px!important;
+font-weight: normal!important;
+font-style:normal;
+text-align: left!important;
+border-bottom:1px solid #d1d4d7!important;
+margin-bottom:10px!important;
+margin-top:10px!important;
+
+}
+
+.PanelCcyTol {	
+background-color: #fff!important;
+margin-left: 0px;
+margin-bottom:0px;
+height:100%!important;
+border-bottom:5px solid #dcdcdc !important;
+margin-top:0px!important;
+
+}
+/* GUI PanelNorthMasterData INIZIO */
+.PanelCcyTol .ui-panel-titlebar{
+width:100%!important;
+border: 0px solid  transparent;
+background: #fff!important ;
+color: #145583;
+font-family: Tahoma!important;
+font-size: 18px!important;
+font-weight: normal!important;
+font-style:normal;
+text-align: center!important;
+border-bottom:1px solid #d1d4d7!important;
+margin-bottom:10px!important;
+margin-top:0px!important;
+
+}
+
+.PanelCcyTolSuth {
+background-color: #f5f5f5!important;
+border: solid 1px #a8a8a8 ;
+box-shadow:2px 2px 3px #aaaaaa;
+margin-left: 0px;
+margin-bottom:0px;
+height:100%!important;
+overflow-y:auto!important;
+}
+
+
+.formUpTol{
+height: 18%!important;	
+}
+
+.formDownTol{
+height: 89%!important;	
+}
+/* GUI PanelNorthMasterData INIZIO */
+.PanelCcyTolSuth .ui-panel-titlebar{
+width:100%!important;
+border: 0px solid  transparent;
+background: #f5f5f5 ;
+color: #145583;
+font-family: Tahoma!important;
+font-size: 18px!important;
+font-weight: normal!important;
+font-style:normal;
+text-align: center!important;
+margin-bottom:10px!important;
+margin-top:10px!important;
+border-bottom:1px solid #d1d4d7!important;
+
+}
+
+.PanelCenterSuthMasterData {
+background-color: #f5f5f5!important;
+border: solid 1px #a8a8a8 ;
+box-shadow:none!important;
+margin-left: 0px;
+margin-bottom:0px;
+height:75%!important;
+}
+
+.PanelCenterSuthMasterData .ui-panel-titlebar{
+width:100%!important;
+border: 0px solid  transparent;
+background: #f5f5f5 !important;;
+color: #145583;
+font-family: Tahoma!important;
+font-size: 18px!important;
+font-weight: normal!important;
+font-style:normal;
+text-align: left!important;
+border-bottom:1px solid #d1d4d7!important;
+margin-bottom:10px!important;
+margin-top:10px!important;
+}
+
+
+
+/*GUI MASTER DATA*/
+.MyScrollMasterData .ui-datatable-scrollable-body {
+overflow: auto!important;
+height: 420px!important;
+margin-right:0%!important;
+}
+
+.ui-editable-column.ui-state-highlight{
+	background:#fff!important;
+	border:1px solid #d1d4d7!important;
+	
+}
+
+
+
+
+
+
+/* GUI CELL EDITOR INSERT 06-02-15 */
+
+.ui-cell-editor{
+	height:20px!important;
+	border:1px solid #d1d4d7!important;
+	width:100%!important;
+	padding:0px!important;
+}
+
+
+.ui-editable-column.ui-state-highlight.ui-cell-editing{
+	background: transparent;
+	border:1px solid #d1d4d7;
+}
+
+.ui-editable-column.ui-state-highlight.ui-cell-editing .ui-cell-editor{
+	margin-bottom:4px!important;
+	border:1px solid transparent!important;
+}
+
+
+.ui-editable-column.ui-state-highlight.ui-cell-editing .ui-cell-editor .ui-cell-editor-input .ui-inputfield{
+		width:70%!important;
+		margin-left:5px!important;
+		margin-right:5px!important;
+}
+
+/*GUI CELL FINE */
+
+
+.ui-cell-editing.ui-state-error .ui-cell-editor-input .ui-inputfield{
+	border:1px solid red!important;
+	width:70%!important;
+		margin-left:5px!important;
+		margin-right:5px!important;
+		padding-left:7px!important;
+		padding-right:7px!important;
+}
+
+.topCenter{
+	margin-top:39px!important;
+}
+
+
+
+/*GUI */
+.PanelCenterNorthFileSore {
+	background-color:#fff!important;
+border-right: none !important;
+border-top: none !important;
+box-shadow:none !important;
+border-bottom:5px solid #dcdcdc !important;
+margin-left: 0px;
+margin-right:0px!important;
+margin-bottom:0%;
+height:105px!important;
+border-right:none!important;
+width:100%!important;
+padding-bottom:0px!important;
+
+}
+
+
+
+/*GUI FILESTORE_REPORTING
+INIZIO
+*/
+
+.ricercaPanelGrid{
+	width:80%!important;
+	margin-left:2%!important;
+	float:left!important;	
+}
+
+
+.ricercaButtPanelGrid{
+	width:18%!important;
+	height:105px!important;
+	margin-right:0px!important;
+	
+}
+.columricLeft{
+	border:none!important;
+	width:15%!important;
+	padding-left:0px!important;
+		padding-bottom:0px!important;
+		background-color:#fff!important;
+	
+}
+
+.columricLast{
+	border:none!important;
+	padding-left:0px!important;
+		padding-bottom:0px!important;
+			width:30%!important;
+					background-color:#fff!important;
+			
+		
+	
+}
+
+.columricBut{
+	border:none!important;
+	padding-left:10px!important;
+	padding-right:10px!important;
+			width:100%!important;
+			background:transparent!important;
+			background-color:#DEEEE3!important;
+			border:1px solid #DEEEE3!important;
+border-left:1px solid #d1d4d7!important;		
+	
+}
+
+
+
+.PanelCenterSuthMd {
+margin-left: 0px;
+margin-bottom:0px;
+background: white!important;
+overflow-y:auto!important;
+height:89%!important;
+}
+
+
+.MyScrollFileStore .ui-datatable-scrollable-body {
+margin-right: 0%!important;
+overflow-y: scroll!important;
+}
+
+
+.buttDownPdf{
+		background-image: url("../images/pdf-icon.png") !important;
+background-repeat: no-repeat !important;
+width: 30px;
+height: 30px;
+background-position: -1px -2px !important;
+background-color: rgb(207, 224, 235) !important;
+border:1px solid #CFE0EB!important;
+border-radius:5px!important;
+	}
+	
+	.buttDownPdf.ui-state-hover{
+			background-image: url("../images/pdf-icon.png") !important;
+background-repeat: no-repeat !important;
+width: 30px;
+height: 30px;
+background-position: -1px -31px !important;
+background-color: #f99d1a !important;
+border:1px solid #f99d1a!important;
+border-radius:5px!important;
+	
+	}
+	
+	
+.buttDownPdf.ui-state-focus{
+			background-image: url("../images/pdf-icon.png") !important;
+background-repeat: no-repeat !important;
+width: 30px;
+height: 30px;
+background-position: -1px -31px !important;
+background-color: #2a7db8 !important;
+border:1px solid #2a7db8!important;
+
+border-radius:5px!important;
+	
+	}
+	
+	
+		.buttDownPdf.ui-state-hover.ui-state-focus{
+			background-image: url("../images/pdf-icon.png") !important;
+background-repeat: no-repeat !important;
+width: 30x;
+height: 30px;
+background-position: -1px -31px !important;
+background-color: #f99d1a !important;
+border:1px solid #f99d1a!important;
+
+border-radius:5px!important;
+	
+	}
+	
+	.buttDownPdf:hover{
+			background-image: url("../images/pdf-icon.png") !important;
+background-repeat: no-repeat !important;
+width: 30px;
+height: 30px;
+background-position: -1px -31px !important;
+background-color: #f99d1a !important;
+border:1px solid #f99d1a!important;
+border-radius:5px!important;
+	
+	}
+	
+	
+.buttDownPdf:focus{
+			background-image: url("../images/pdf-icon.png") !important;
+background-repeat: no-repeat !important;
+width: 30px;
+height: 30px;
+background-position: -1px -31px !important;
+background-color: #2a7db8 !important;
+border:1px solid #2a7db8!important;
+
+border-radius:5px!important;
+	
+	}
+	
+	
+		.buttDownPdf:focus:hover{
+			background-image: url("../images/pdf-icon.png") !important;
+background-repeat: no-repeat !important;
+width: 30x;
+height: 30px;
+background-position: -1px -31px !important;
+background-color: #f99d1a !important;
+border:1px solid #f99d1a!important;
+
+border-radius:5px!important;
+	
+	}
+/*GUI *Fine bottone pdf */	
+
+
+/*GUI *INIZIO bottone txt */	
+	.buttDownTxt{
+		background-image: url("../images/file-icon-txt.png") !important;
+background-repeat: no-repeat !important;
+width: 30px;
+height: 30px;
+background-position: -1px -2px !important;
+background-color: rgb(207, 224, 235) !important;
+border:1px solid #CFE0EB!important;
+border-radius:5px!important;
+	}
+	
+	.buttDownTxt.ui-state-hover{
+		background-image: url("../images/file-icon-txt.png") !important;
+background-repeat: no-repeat !important;
+width: 30px;
+height: 30px;
+background-position: -1px -31px !important;
+background-color: #f99d1a !important;
+border:1px solid #f99d1a!important;
+border-radius:5px!important;
+	
+	}
+	
+	.buttDownTxt:hover{
+			background-image: url("../images/file-icon-txt.png") !important;
+background-repeat: no-repeat !important;
+width: 30px;
+height: 30px;
+background-position: -1px -31px !important;
+background-color: #f99d1a !important;
+border:1px solid #f99d1a!important;
+border-radius:5px!important;
+	}
+	
+	.buttDownTxt:focus{
+					background-image: url("../images/file-icon-txt.png") !important;
+background-repeat: no-repeat !important;
+width: 30px;
+height: 30px;
+background-position: -1px -31px !important;
+background-color: #2a7db8 !important;
+border:1px solid #2a7db8!important;
+
+border-radius:5px!important;
+	}
+.buttDownTxt.ui-state-focus{
+		background-image: url("../images/file-icon-txt.png") !important;
+background-repeat: no-repeat !important;
+width: 30px;
+height: 30px;
+background-position: -1px -31px !important;
+background-color: #2a7db8 !important;
+border:1px solid #2a7db8!important;
+
+border-radius:5px!important;
+	
+	}
+		.buttDownTxt:hover:focus{
+		background-image: url("../images/file-icon-txt.png") !important;
+background-repeat: no-repeat !important;
+width: 30px;
+height: 30px;
+background-position: -1px -31px !important;
+background-color: #f99d1a !important;
+border:1px solid #f99d1a!important;
+
+border-radius:5px!important;
+	
+	}
+	
+		.buttDownTxt.ui-state-hover.ui-state-focus{
+		background-image: url("../images/file-icon-txt.png") !important;
+background-repeat: no-repeat !important;
+width: 30px;
+height: 30px;
+background-position: -1px -31px !important;
+background-color: #f99d1a !important;
+border:1px solid #f99d1a!important;
+
+border-radius:5px!important;
+	
+	}
+	
+	
+/*GUI *Fine bottone txt */	
+
+
+
+/*GUI MESSAGING
+INIZIO
+ */
+.PanelCenterNorthMessageMes {
+background-color:#fff!important;
+border-right: none !important;
+border-top: none !important;
+box-shadow:none !important;
+border-bottom:5px solid #dcdcdc !important;
+margin-left: 0px;
+margin-right:0px!important;
+margin-bottom:0%;
+height:145px!important;
+border-right:none!important;
+width:100%!important;
+padding-bottom:0px!important;
+margin-top:0px!important;
+}
+
+
+.ricercaPanelGridMes{
+	width:80%!important;
+	margin-left:2%!important;
+	float:left!important;
+	margin-top:20px!important;
+}
+
+
+.ricercaButtPanelGridMes{
+	width:18%!important;
+	height:145px!important;
+	margin-right:0px!important;
+	
+}
+.columricLeftMes{
+	border:none!important;
+	width:15%!important;
+	padding-left:0px!important;
+		padding-bottom:0px!important;
+		background-color:#fff!important;
+	
+}
+
+.columricLastMes{
+	border:none!important;
+	padding-left:0px!important;
+		padding-bottom:0px!important;
+			width:30%!important;
+					background-color:#fff!important;
+			
+		
+	
+}
+
+.columricButMes{
+	border:none!important;
+	padding-left:10px!important;
+	padding-right:10px!important;
+			width:100%!important;
+			background:transparent!important;
+	background-color:#DEEEE3!important;
+		border:1px solid #DEEEE3!important;
+border-left:1px solid #d1d4d7!important;		
+		
+	
+}
+
+
+.PanelCenterSuthMdMes {
+margin-left: 0px;
+margin-bottom:0px;
+background: white!important;
+background-color:white!important;
+overflow-y:auto!important;
+height:84.5%!important;
+border-bottom:1px solid red!important;
+}
+/*GUI MESSAGING
+FINE
+ */
+
+ 
+ 
+
+
+
+
+
+
+ /*GUI UPLOAD REP
+INIZIO
+ */
+.PanelCenterNorthMessageUploadRep {
+background-color:#fff!important;
+border-right: none !important;
+border-top: none !important;
+box-shadow:none !important;
+border-bottom:5px solid #dcdcdc !important;
+margin-left: 0px;
+margin-right:0px!important;
+margin-bottom:0%;
+height:145px!important;
+border-right:none!important;
+width:100%!important;
+padding-bottom:0px!important;
+margin-top:0px!important;
+}
+
+
+.ricercaPanelGridUploadRep {
+	width:80%!important;
+	margin-left:2%!important;
+	float:left!important;
+	margin-top:20px!important;
+}
+
+
+.ricercaButtPanelGridUploadRep {
+	width:18%!important;
+	height:145px!important;
+	margin-right:0px!important;
+	
+}
+.columricLeftUploadRep {
+	border:none!important;
+	width:15%!important;
+	padding-left:0px!important;
+		padding-bottom:0px!important;
+		background-color:#fff!important;
+	
+}
+
+.columricLastUploadRep {
+	border:none!important;
+	padding-left:0px!important;
+		padding-bottom:0px!important;
+			width:30%!important;
+					background-color:#fff!important;
+			
+		
+	
+}
+
+.columricButUploadRep {
+	border:none!important;
+	padding-left:10px!important;
+	padding-right:10px!important;
+			width:100%!important;
+			background:transparent!important;
+			background-color:#DEEEE3!important;
+			border:1px solid #DEEEE3!important;
+border-left:1px solid #d1d4d7!important;		
+		
+	
+}
+
+/*GUI UPLOAD
+FINE
+ */
+
+ 
+ /*GUI 
+INIZIO
+CHOSE BUTTON */
+.defaultChooseButton {
+	visibility:hidden!important;
+	width:0px;
+}
+.chooseFileButton {
+	background:#CFE0EB!important;
+	border-radius:5px 5px 5px 5px;
+	background-color:#CFE0EB!important;
+	color:#145583!important;
+	font-family: Tahoma!important;
+		font-size:11px!important;
+		boder:1px solid #CFE0EB!important;
+	
+}
+
+
+.chooseFileButton.ui-state-hover{
+		background:#f99d1a!important;
+	border-radius:5px 5px 5px 5px;
+	background-color:#f99d1a!important;
+	color:#fff!important;
+	font-family: Tahoma!important;
+		font-size:11px!important;
+		boder:1px solid #f99d1a!important;
+	
+}
+
+
+.chooseFileButton.ui-state-focus{
+		background:#2a7db8!important;
+	border-radius:5px 5px 5px 5px;
+	background-color:#2a7db8!important;
+	color:#fff!important;
+	font-family: Tahoma!important;
+		font-size:11px!important;
+				boder:1px solid #2a7db8!important;
+		
+	
+}
+
+
+.chooseFileButton.ui-state-focus.ui-state-hover{
+		background:#f99d1a!important;
+	border-radius:5px 5px 5px 5px;
+	background-color:#f99d1a!important;
+	color:#fff!important;
+	font-family: Tahoma!important;
+		font-size:11px!important;
+		boder:1px solid #f99d1a!important;
+	
+}
+
+.ui-button-icon-left.ui-icon.ui-c.choseIc{
+	display: block !important;
+background-image: url("../images/sprite-1new.png") !important;
+width: 18px !important;
+height: 18px !important;
+background-position: -34px -128px !important;
+border-radius:5px!important;
+}
+
+
+
+.chooseFileButton.ui-state-hover .ui-button-icon-left.ui-icon.ui-c.choseIc{
+	display: block !important;
+background-image: url("../images/sprite-2.png") !important;
+width: 18px !important;
+height: 18px !important;
+background-position: -34px -128px !important;
+border-radius:5px!important;
+}
+
+
+.chooseFileButton.ui-state-focus .ui-button-icon-left.ui-icon.ui-c.choseIc{
+	display: block !important;
+background-image: url("../images/sprite-2.png") !important;
+width: 18px !important;
+height: 18px !important;
+background-position: -34px -128px !important;
+border-radius:5px!important;
+}
+
+
+/*GUI 
+INIZIO
+CHOSE BUTTON */
+ 
+ 
+ 
+ /*GUI Lock
+INIZIO
+ */
+.PanelCenterNorthLock {
+background-color:#fff!important;
+border-right: none !important;
+border-top: none !important;
+box-shadow:none !important;
+border-bottom:5px solid #dcdcdc !important;
+margin-left: 0px;
+margin-right:0px!important;
+margin-bottom:0px!important;
+height:145px!important;
+border-right:none!important;
+width:100%!important;
+padding-bottom:0px!important;
+margin-top:0px!important;
+}
+
+
+.ricercaPanelGridLock {
+	width:80%!important;
+	margin-left:2%!important;
+	float:left!important;
+	margin-top:20px!important;
+}
+
+
+.ricercaButtPanelLock {
+	width:18%!important;
+	height:145px!important;
+	margin-right:0px!important;
+	margin-top: 0px!important;
+	
+}
+.columricLeftLock {
+	border:none!important;
+	width:15%!important;
+	padding-left:0px!important;
+		padding-bottom:0px!important;
+		background-color:#fff!important;
+	
+}
+
+.columricLastLock {
+	border:none!important;
+	padding-left:0px!important;
+		padding-bottom:0px!important;
+			width:50%!important;
+					background-color:#fff!important;
+			border-right:1px solid #d1d4d7!important;
+		
+	
+}
+
+.columricButLock {
+	padding-top:0px!important;
+	border:none!important;
+	padding-left:10px!important;
+	padding-right:10px!important;
+			width:100%!important;
+			background:transparent!important;
+			background-color:#DEEEE3!important;
+			border:1px solid #DEEEE3!important;
+border-left:1px solid #d1d4d7!important;		
+		
+	
+}
+
+
+/*GUI Lock
+FINE
+ */
+ 
+ .PanelNorthDownloadManual .ui-panel-titlebar{
+width:100%!important;
+border: 0px solid  transparent;
+background: #f5f5f5 ;
+color: #145583;
+font-family: Tahoma!important;
+font-size: 18px!important;
+font-weight: normal!important;
+font-style:normal;
+text-align: left!important;
+border-bottom:1px solid #d1d4d7!important;
+margin-bottom:10px!important;
+margin-top:10px!important;
+
+}
+ 
+ .PanelNorthDownloadManual {
+background-color: #f5f5f5!important;
+margin-left: 0px;
+margin-bottom:0px;
+height:100%!important;
+
+}
+
+
+.formRicercaLayout{
+width:100%!important;	
+height:50%!important;
+border-bottom:5px solid #dcdcdc !important;	
+}
+
+ .PanelNorthLayout {
+width:100%!important;
+background-color: #fff!important;
+margin-left: 0px;
+margin-bottom:0px;
+	height:108px!important;
+margin-top:0px!important;
+border-bottom: 1px solid #d1d4d7!important;
+}
+
+ .PanelNorthLayout .ui-panel-titlebar{
+width:100%!important;
+border: 0px solid  transparent;
+background: #f5f5f5 ;
+color: #145583;
+font-family: Tahoma!important;
+font-size: 18px!important;
+font-weight: normal!important;
+font-style:normal;
+text-align: left!important;
+border-bottom:1px solid #d1d4d7!important;
+margin-bottom:0px!important;
+
+}
+
+ .PanelNorthDownLayout {
+margin-left: 0px;
+margin-bottom:0px;
+background: #f5f5f5 ;
+overflow-y:auto!important;
+height:65%!important;
+width:100%!important;
+}
+
+.PanelNorthDownLayoutMonitoring{
+	margin-left: 0px;
+	margin-bottom:0px;
+	background: #f5f5f5 ;
+	overflow-y:auto!important;
+	height:85%!important;
+	width:100%!important;
+}
+
+.PanelSouthLayout{
+width:100%!important;
+height:57%;
+}
+
+
+.GridLayoutSouth{
+width:100%!important;
+height:100%!important;
+padding:0px!important;
+}
+
+.primaRowLayout{
+	width:83%!important;
+	border:1px solid #d1d4d7!important;
+}
+
+.titoloLayout{
+	width:100%!important;
+border: 0px solid  transparent;
+background: #f5f5f5 ;
+color: #145583;
+font-family: Tahoma!important;
+font-size: 15px!important;
+font-weight: normal!important;
+font-style:normal;
+text-align: left!important;
+margin-bottom:0px!important;
+}
+ 
+
+
+
+
+
+.ricercaButtLayout {
+	width:18%!important;
+	height:82px!important;
+	margin-right:0px!important;
+	margin-top: 0px!important;
+}
+
+
+
+.columricBut2{
+	border:none!important;
+	padding-top:0px!important;
+			width:100%!important;
+			background:transparent!important;
+			background-color:#DEEEE3!important;
+			border:1px solid #DEEEE3!important;
+border-left:1px solid #d1d4d7!important;		
+		
+	
+}
+
+
+.ricercaButtPanelGridLayout {
+	width:18%!important;
+	height:145px!important;
+	margin-right:0px!important;
+	
+}
+
+.MyScrollLayoutStore .ui-datatable-scrollable-body {
+margin-right: 0%!important;
+overflow-y: scroll!important;
+}
+
+.MyScrollRefresh .ui-datatable-scrollable-body {
+margin-right: 0%!important;
+overflow-y: scroll!important;
+}
+
+/* .ui-layout-center{ */
+/* 	z-index: 2000!important; */
+/* } */
+
+
+.headerSplit.ui-datatable thead th{
+	font-size:12.5px!important;
+}
+
+.Borders td{
+	border:1px solid #d1d4d7!important;
+}
+	.MyTextAddCashWithDrawal {
+	font-size:13px!important;	
+font-weight: bold!important;
+color:black!important;
+}
+	
+
+
+
+/* INIZIO
+FINANCING	3_4
+
+*/
+.ui-selectonemenu-panel{
+	z-index: 3333!important;
+}	
+
+.ui-dialog.rotella{
+	z-index: 4333!important;
+}
+
+
+/* FINE
+FINANCING	3_4
+
+*/
+
+.PanelCashCover .ui-panel-titlebar{
+width:100%!important;
+border: 0px solid  transparent;
+color: #145583;
+font-family: Tahoma!important;
+font-size: 18px!important;
+font-weight: normal!important;
+font-style:normal;
+text-align: center!important;
+margin-bottom:10px!important;
+
+}
+
+.mainPanelGroup {
+	border-spacing: 20px;
+	border-collapse: separate;
+}
+.panelGroup {
+	border: 2px solid #A8A8A8 !important;
+	padding: 15px !important;
+	vertical-align: top !important;
+}
+.panelGroup tr, .panelGroup td {
+    border: none !important;
+}
+.panelGroupTitle {
+	font-size: 14px!important;
+	color: #145583;
+	padding-bottom: 20px !important;
+}
+.panelGroupButton {
+	text-align: right;
+	padding-top: 30px !important;
+}
+table#layoutCheckBoxAddInfo {
+	width: 100% !important;
+}
+
+
+.buttDel{
+	background-image: url("../images/deleteRow.png") !important;
+	background-repeat: no-repeat !important;
+	width: 22px;
+	height: 22px;
+	background-position: 2px 2px !important;
+	background-color: rgb(207, 224, 235) !important;
+	border-radius:5px!important;
+}
+
+.buttDel.ui-state-hover, .buttDel.ui-state-hover.ui-state-focus{
+	background-image: url("../images/deleteRow.png") !important;
+	background-repeat: no-repeat !important;
+	width: 22px;
+	height: 22px;
+	background-position: 2px 2px !important;
+	background-color: #f99d1a !important;
+	border-radius:5px!important;
+}
+.buttDel.ui-state-focus{
+	background-image: url("../images/deleteRow.png") !important;
+	background-repeat: no-repeat !important;
+	width: 22px;
+	height: 22px;
+	background-position: 2px 2px !important;
+	background-color: #2a7db8 !important;
+	border-radius:5px!important;
+}
+
+
+/* INIZIO EXTRA MARGIN*/
+
+.extraMarginHeader {
+    color: #FFFFFF!important;
+    text-align: left;
+    font-size: 11.5px;
+    background: #2a7db8!important;
+    border: 1px Solid!important;
+    border-color: #145583!important;
+    font-family: Tahoma!important;
+}
+
+
+/* FINE EXTRA MARGIN*/

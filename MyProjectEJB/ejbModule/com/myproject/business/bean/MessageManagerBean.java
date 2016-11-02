@@ -9,7 +9,7 @@ public class MessageManagerBean implements MessageManager{
 
 	@Override
 	public String writeMessage() {
-		 return "Ciao Mondo!";
+		 return "Ciao Mond!";
 		
 	}
 
